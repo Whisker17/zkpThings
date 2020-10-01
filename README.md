@@ -4,7 +4,7 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 ## Preliminary knowledge
 
-
+KEA
 
 ## zk-SNARK
 

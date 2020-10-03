@@ -10,5 +10,7 @@ QAP
 
 QSP
 
+Tate pairing
+
 ## zk-SNARK
 

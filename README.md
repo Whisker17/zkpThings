@@ -14,5 +14,8 @@ Tate pairing
 
 Weil pairing
 
+
+
 ## zk-SNARK
 
+Pinocchio

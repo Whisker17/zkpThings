@@ -5,6 +5,7 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 ## Preliminary knowledge
 
 KEA
+
 确保在通信时另一方使用的本方提供的数据
 
 QAP

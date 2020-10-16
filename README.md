@@ -16,7 +16,7 @@ Tate pairing
 
 Weil pairing
 
-20 30
+Confidential transaction
 
 ## zk-SNARK
 

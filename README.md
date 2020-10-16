@@ -18,6 +18,8 @@ Weil pairing
 
 Confidential transaction
 
+Fiat–Shamir heuristic
+
 ## zk-SNARK
 
 Pinocchio

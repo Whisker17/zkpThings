@@ -16,6 +16,8 @@ Tate pairing
 
 Weil pairing
 
+Schnorr
+
 Confidential transaction
 
 Fiat–Shamir heuristic

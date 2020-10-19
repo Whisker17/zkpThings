@@ -1,5 +1,7 @@
 # zkpThings
 
+https://img.shields.io/github/issues/Whisker17/zkpThings
+
 This repo is just for recording my study for zero-knowledge proof and summarize some of my understanding.
 
 **在未完成前可以先去 Isues 查看进度**

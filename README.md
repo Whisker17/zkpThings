@@ -1,6 +1,6 @@
 # zkpThings
 
-https://img.shields.io/github/issues/Whisker17/zkpThings
+![GitHub issues](https://img.shields.io/github/issues/Whisker17/zkpThings)
 
 This repo is just for recording my study for zero-knowledge proof and summarize some of my understanding.
 

@@ -30,3 +30,6 @@ Fiat–Shamir heuristic
 ## zk-SNARK
 
 Pinocchio
+
+
+## NIZK

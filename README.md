@@ -24,6 +24,8 @@ Schnorr
 
 Confidential transaction
 
+CRS
+
 Fiat–Shamir heuristic
 将交互式系统转化为非交互式系统
 

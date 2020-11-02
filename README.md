@@ -37,3 +37,11 @@ Pinocchio
 ## NIZK
 
 NIZK
+
+## Reading Lists
+
+- (浅谈零知识证明)[https://github.com/Whisker17/zkpThings/issues/11] 
+  东泽大神关于 zk-SNARK 的一步步解析
+  
+- (读懂区块链之零知识证明（zk-SNARK）)[https://github.com/Whisker17/zkpThings/issues/15]
+  对于 zk-SNARK 的介绍，重点在于 QAP 的解析

@@ -47,3 +47,7 @@ NIZK
 - [读懂区块链之零知识证明（zk-SNARK）](https://github.com/Whisker17/zkpThings/issues/15)
 
   对于 zk-SNARK 的介绍，重点在于 QAP 的解析
+
+- [郭宇老师的 ZKP 介绍](https://github.com/Whisker17/zkpThings/issues/12)
+  
+  对于零知识证明的介绍，讲的不是具体的某个算法，而是比较抽象的入门

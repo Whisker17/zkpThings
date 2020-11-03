@@ -51,3 +51,7 @@ NIZK
 - [郭宇老师的 ZKP 介绍](https://github.com/Whisker17/zkpThings/issues/12)
   
   对于零知识证明的介绍，讲的不是具体的某个算法，而是比较抽象的入门
+  
+- [彻底读懂零知识证明及其实现方法：解析zk-SNARK](https://github.com/Whisker17/zkpThings/issues/16)
+
+  简单的总结东泽和安比的文章

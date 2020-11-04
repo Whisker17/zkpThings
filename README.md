@@ -55,3 +55,6 @@ NIZK
 - [彻底读懂零知识证明及其实现方法：解析zk-SNARK](https://github.com/Whisker17/zkpThings/issues/16)
 
   简单的总结东泽和安比的文章
+
+- [一文读懂零知识证明背后的简单逻辑](https://github.com/Whisker17/zkpThings/issues/17)
+  小白文

@@ -20,7 +20,7 @@ Tate pairing
 
 Weil pairing
 
-Schnorr
+[Schnorr](https://github.com/Whisker17/zkpThings/issues/2)
 
 Confidential transaction
 

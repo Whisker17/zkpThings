@@ -40,7 +40,7 @@ NIZK
 
 ## Reading Lists
 
-- [浅谈零知识证明](https://github.com/Whisker17/zkpThings/issues/11) ]
+- [**浅谈零知识证明**](https://github.com/Whisker17/zkpThings/issues/11) ]
 
   东泽大神关于 zk-SNARK 的一步步解析
   
@@ -59,3 +59,7 @@ NIZK
 - [一文读懂零知识证明背后的简单逻辑](https://github.com/Whisker17/zkpThings/issues/17)
   
   小白文
+  
+- [**从零开始学习 zk-SNARK**](https://github.com/Whisker17/zkpThings/issues/10)
+
+  非常好的教学文章翻译，但是需要一定的基础才能消化

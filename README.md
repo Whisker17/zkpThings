@@ -63,3 +63,7 @@ NIZK
 - [**从零开始学习 zk-SNARK**](https://github.com/Whisker17/zkpThings/issues/10)
 
   非常好的教学文章翻译，但是需要一定的基础才能消化
+
+- [零知识证明引论](https://github.com/Whisker17/zkpThings/issues/19)
+  
+  综述性质的文章

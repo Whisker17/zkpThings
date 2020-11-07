@@ -67,3 +67,7 @@ NIZK
 - [零知识证明引论](https://github.com/Whisker17/zkpThings/issues/19)
   
   综述性质的文章
+
+- [Star Li 关于 zkSNARKs 的直播讲解](https://github.com/Whisker17/zkpThings/issues/13)
+  
+  视频教程，入门小白级别

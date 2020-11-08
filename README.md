@@ -14,8 +14,6 @@ KEA
 
 QAP
 
-QSP
-
 Tate pairing
 
 Weil pairing

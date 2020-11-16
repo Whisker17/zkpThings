@@ -1,5 +1,16 @@
 # Reading Lists
 
+## Catalogue
+
+- [**QAP**](#QAP)
+- [**zk-SNARKs**](#zk-SNARKs)
+
+### QAP
+
+- [**Quadratic Arithmetic Programs**](https://github.com/Whisker17/zkpThings/issues/27)
+
+### zk-SNARKs
+
 - [**浅谈零知识证明**](https://github.com/Whisker17/zkpThings/issues/11) 
 
   东泽大神关于 zk-SNARK 的一步步解析

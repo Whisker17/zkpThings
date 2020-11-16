@@ -8,16 +8,22 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 ## Catalogue
 
+- [**Preliminary knowledge**](#Preliminary-knowledge)
+
 - **Reading Lists**
 - **Awesome Resources**
 
-## Preliminary knowledge
+------
+
+### Preliminary knowledge
 
 KEA
 
 确保在通信时另一方使用的本方提供的数据
 
-QAP
+#### QAP
+
+
 
 Tate pairing
 
@@ -31,13 +37,3 @@ CRS
 
 Fiat–Shamir heuristic
 将交互式系统转化为非交互式系统
-
-## zk-SNARK
-
-Pinocchio
-
-
-## NIZK
-
-NIZK
-

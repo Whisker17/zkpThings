@@ -10,8 +10,9 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 - [**Preliminary knowledge**](#Preliminary-knowledge)
 
-- **Reading Lists**
-- **Awesome Resources**
+- [**Reading Lists**](https://github.com/Whisker17/zkpThings/blob/master/Reading_Lists.md)
+
+- [**Awesome Resources**](https://github.com/Whisker17/zkpThings/blob/master/Awesome_Resources.md)
 
 ------
 

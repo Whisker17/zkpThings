@@ -2,8 +2,11 @@
 
 ## Catalogue
 
+- [**Introduction**](#Introduction)
 - [**QAP**](#QAP)
 - [**zk-SNARKs**](#zk-SNARKs)
+
+### Introduction
 
 ### QAP
 

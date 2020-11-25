@@ -5,6 +5,7 @@ Stay tuned! 😁
 ## Contents
 
 - [**Introduction**](#Introduction)
+- [**History And Important Papers**](#History-And-Important-Papers)
 - [**Great resource**](#Great-resource)
   - [Courses](#Courses)
   - [Books](#Books)
@@ -33,6 +34,12 @@ Stay tuned! 😁
   
 
 - [**On Interactive Proofs and Zero-Knowledge: A Primer**](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
+
+### History And Important Papers
+
+- [Zero-Knowledge Proofs (GMR85)](https://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
+- [Non-Interactive ZK (BFM88)](https://dl.acm.org/citation.cfm?id=62222)
+- 
 
 ### Great resource
 

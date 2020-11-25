@@ -4,6 +4,8 @@
 
 This repo is just for recording my study for zero-knowledge proof and summarize some of my understanding.
 
+**STAY TUNED!!!!!**
+
 **本人很懒,在未完成前懒得写 README ,可以先去 Isues 查看进度**
 
 ## Catalogue
@@ -18,23 +20,19 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 ### Preliminary knowledge
 
-KEA
+- [**KEA**](./src/KEA.md)
 
-确保在通信时另一方使用的本方提供的数据
+  确保在通信时另一方使用的本方提供的数据
 
-#### QAP
+- **QAP**
 
 
 
-Tate pairing
-
-Weil pairing
-
-[Schnorr](https://github.com/Whisker17/zkpThings/issues/2)
+- [**Schnorr**](https://github.com/Whisker17/zkpThings/issues/2)
 
 Confidential transaction
 
-CRS
+- **CRS**
 
-Fiat–Shamir heuristic
-将交互式系统转化为非交互式系统
+- **Fiat–Shamir heuristic**
+  将交互式系统转化为非交互式系统

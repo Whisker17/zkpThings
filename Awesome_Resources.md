@@ -35,6 +35,10 @@ Stay tuned! 😁
 
 - [**On Interactive Proofs and Zero-Knowledge: A Primer**](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
 
+- [**Demystifying zero-knowledge proofs**](https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p)
+
+- 
+
 ### History And Important Papers
 
 #### General ZKP
@@ -51,7 +55,9 @@ Stay tuned! 😁
 - [Succinct NIZK without PCP Theorem & Quasi-linear prover time (GGPR13)](https://eprint.iacr.org/2012/215)
 
   - [Pinocchio (PGHR13)](https://eprint.iacr.org/2013/279.pdf)
-  - 
+  - [Geppetto (CFHKKNPZ14)](https://eprint.iacr.org/2014/976)
+  - [BCTV14a](https://eprint.iacr.org/2013/879)
+- [Groth16](https://eprint.iacr.org/2016/260.pdf)
 
 ### Great resource
 
@@ -85,7 +91,8 @@ Stay tuned! 😁
 
 - [**zkp.science**](https://zkp.science/)
 
-
+- [**Zero-Knowledge Proofs Starter Pack**](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
+- 
 
 ### Social
 
@@ -102,6 +109,7 @@ Stay tuned! 😁
 - **安比技术社区**
 - **星想法**
 - **包罗万想**
+- **blocksight**
 
 ### Developer Things
 

@@ -37,9 +37,21 @@ Stay tuned! 😁
 
 ### History And Important Papers
 
+#### General ZKP
+
 - [Zero-Knowledge Proofs (GMR85)](https://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
 - [Non-Interactive ZK (BFM88)](https://dl.acm.org/citation.cfm?id=62222)
-- 
+
+#### Step into zk-SNARKs
+
+- [Succinct ZK (K92)](https://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
+- [Succinct Non-Interactive ZK (M94)](https://projecteuclid.org/download/pdf_1/euclid.lnl/1235415908)
+- [“SNARK” terminology and characterization of existence (BCCT11)](https://eprint.iacr.org/2011/443)
+- [Succinct NIZK without the PCP Theorem (Groth10)](http://www0.cs.ucl.ac.uk/staff/J.Groth/ShortNIZK.pdf)
+- [Succinct NIZK without PCP Theorem & Quasi-linear prover time (GGPR13)](https://eprint.iacr.org/2012/215)
+
+  - [Pinocchio (PGHR13)](https://eprint.iacr.org/2013/279.pdf)
+  - 
 
 ### Great resource
 

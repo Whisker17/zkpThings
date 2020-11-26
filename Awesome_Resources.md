@@ -57,7 +57,13 @@ Stay tuned! 😁
   - [Pinocchio (PGHR13)](https://eprint.iacr.org/2013/279.pdf)
   - [Geppetto (CFHKKNPZ14)](https://eprint.iacr.org/2014/976)
   - [BCTV14a](https://eprint.iacr.org/2013/879)
+
+#### Other Prove Systems
+
 - [Groth16](https://eprint.iacr.org/2016/260.pdf)
+  - [DIZK (WZCPS18)](https://eprint.iacr.org/2018/691)
+- [BCCGP16](https://eprint.iacr.org/2016/263.pdf)
+  - [Bulletproofs (BBBPWM17)](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
 
 ### Great resource
 
@@ -66,8 +72,6 @@ Stay tuned! 😁
 #### Courses
 
 - [**COSC 544 - Probabilistic Proof Systems**](http://people.cs.georgetown.edu/jthaler/COSC544.html)
-
-
 
 - [**The 9th BIU Winter School on Cryptography: Zero Knowledge**](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
 - [**UIUC: ECE498AC/CS498AM: Applied Cryptography, Fall 2019**](http://soc1024.ece.illinois.edu/teaching/ece498ac/fall2019/)
@@ -122,5 +126,20 @@ Stay tuned! 😁
 - **blocksight**
 
 ### Developer Things
+
+#### SNARKs
+
+> SNARK = **S**uccinct **N**on-interactive **AR**guments of **K**nowledge
+
+##### Introduction
+
+- **ZCash Explain Series**
+  - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+  - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
+  - [The Knowledge of Coefficient Test and Assumption](https://z.cash/blog/snark-explain3)
+  - [How to make Blind Evaluation of Polynomials Verifiable](https://z.cash/blog/snark-explain4)
+  - [From Computations to Polynomials](https://z.cash/blog/snark-explain5)
+  - [The Pinocchio Protocol](https://z.cash/blog/snark-explain6)
+  - [Pairings of Elliptic Curves](https://z.cash/blog/snark-explain7)
 
   [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)

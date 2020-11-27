@@ -133,6 +133,13 @@ Stay tuned! 😁
 
 ##### Introduction
 
+- **浅谈零知识证明**
+
+  - [浅谈零知识证明：背景与起源](https://zhuanlan.zhihu.com/p/98077048)
+  -  [浅谈零知识证明之二：简短无交互证明（SNARK）](https://zhuanlan.zhihu.com/p/150246147)
+  -  [浅谈零知识证明之三：zkSNARK证明体系的实现](https://zhuanlan.zhihu.com/p/150752963)
+  -  [浅谈零知识证明之四：zkSNARK证明体系的实现（下）](https://zhuanlan.zhihu.com/p/159003974)
+
 - **ZCash Explain Series**
   - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
@@ -141,5 +148,9 @@ Stay tuned! 😁
   - [From Computations to Polynomials](https://z.cash/blog/snark-explain5)
   - [The Pinocchio Protocol](https://z.cash/blog/snark-explain6)
   - [Pairings of Elliptic Curves](https://z.cash/blog/snark-explain7)
+
+  
+
+  
 
   [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)

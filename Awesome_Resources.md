@@ -85,8 +85,6 @@ Stay tuned! 😁
 
 - [**awesome-zero-knowledge-proofs**](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
 
-  
-
 - **[zklangs](https://github.com/HarryR/zklangs)**
 
 - **[learning-zkp](https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md)**

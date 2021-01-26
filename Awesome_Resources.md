@@ -71,9 +71,7 @@ Stay tuned! 😁
 
 - [**COSC 544 - Probabilistic Proof Systems**](http://people.cs.georgetown.edu/jthaler/COSC544.html)
 
-- [**The 9th BIU Winter School on Cryptography: Zero Knowledge**](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/)
-
-  **Very Important！！！！**
+- [**The 9th BIU Winter School on Cryptography: Zero Knowledge**](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/) **(Very Important！！！！)** 
 
 - [**UIUC: ECE498AC/CS498AM: Applied Cryptography, Fall 2019**](http://soc1024.ece.illinois.edu/teaching/ece498ac/fall2019/)
 
@@ -89,9 +87,7 @@ Stay tuned! 😁
 
 - **[zklangs](https://github.com/HarryR/zklangs)**
 
-- **[learning-zkp](https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md)**
-
-  Chinese
+- **[learning-zkp](https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md)** (Chinese)
 
 - [**zkp.science**](https://zkp.science/)
 
@@ -127,6 +123,11 @@ Stay tuned! 😁
 
 ### Developer Things
 
+#### PLONK
+
+- **理解零知识算法PLONK**
+  - [理解零知识算法PLONK（一）—电路](https://mp.weixin.qq.com/s/qr4njTJG89Mj_puIyzMu1w)
+
 #### SNARKs
 
 > SNARK = **S**uccinct **N**on-interactive **AR**guments of **K**nowledge
@@ -154,7 +155,19 @@ Stay tuned! 😁
   - [零知识证明系列专题（四）：基于Linear PCP的zk-SNARK](https://mp.weixin.qq.com/s/ZYmzn4-LfUD1o9NtDM8ahQ)
   - [零知识证明系列专题（五）：用QSPs构造zk-SNARK](https://mp.weixin.qq.com/s/ksTFqX99zQDS0ECn7AqDQw)
 
+- **第九届BIU密码学冬令营**
+
+  - [Alon Rosen: Introduction to Zero Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494043&idx=1&sn=0b31475c88222aca181633953c88dc99&chksm=facc539dcdbbda8b897784779af5cc57a92c7bbc834d795c9f0ba5f84dc9e3c2fe85f0881802&scene=21#wechat_redirect)
+  - [Alon Rosen: Zero Knowledge for All NP](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494091&idx=1&sn=01d79903f502a6ef3aef521abfc46d1c&chksm=facc53cdcdbbdadbd33e15334a96925f231a0c5ec9d5395ee0342684ae2afb9b40493055086d&scene=21#wechat_redirect) 
+  - [Yehuda Lindell: Proofs of Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494131&idx=1&sn=747f7137e8d0303c340c7d98680242c7&chksm=facc53f5cdbbdae3f8dd216b701b0d3ec9104476709c451dbf5ee16c527f983128a50372a74a&scene=21#wechat_redirect) 
+  - [Alon Rosen: Constant-Round CZK Proofs for NP](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494162&idx=1&sn=66604cd7f3ec72860b2565c24e317a40&chksm=facc5014cdbbd9026b91bf186859e97530786b0c173749a73fd0292f37ffc59870e4be5a7cb2&scene=21#wechat_redirect)
+  - [Alon Rosen: Witness Indistinguishability and Constant-Round Arguments](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494224&idx=1&sn=90e766fe4b20f8e67131d2e15a9498bc&chksm=facc5056cdbbd940bdce9c9591b7b773e66d28640e7bee82688367a1f04a37b77ea35aaf44fb&scene=21#wechat_redirect)
+  - [Ron Rothblum: Non-Interactive Zero-Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494281&idx=1&sn=e2ddcff1b16569cb8d99d0bdacc5249f&chksm=facc508fcdbbd999dfc229d6c4c967a24ee4e95a8c9f97c264402bb2504a1d90deba27c59618&scene=21#wechat_redirect)
+  - [Ron Rothblum: The Fiat-Shamir Transform](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494320&idx=1&sn=83c1c90b04b5b0fdf6f55a26ee4a8631&chksm=facc50b6cdbbd9a0507536827d59bf7ea27c9fda4c99894deada0779875c5447a29188e2ef96&scene=21#wechat_redirect) 
+  - [Alon Rosen: Lower Bounds and Limitations on Zero Knowledge](https://mp.weixin.qq.com/s/8PRus-sYqWrlysPh1xX1mQ)
+
 - **ZCash Explain Series**
+
   - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
   - [The Knowledge of Coefficient Test and Assumption](https://z.cash/blog/snark-explain3)
@@ -163,8 +176,6 @@ Stay tuned! 😁
   - [The Pinocchio Protocol](https://z.cash/blog/snark-explain6)
   - [Pairings of Elliptic Curves](https://z.cash/blog/snark-explain7)
 
-  
-
-  
+  #### 
 
   [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)

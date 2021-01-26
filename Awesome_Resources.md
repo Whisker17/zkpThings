@@ -140,6 +140,20 @@ Stay tuned! 😁
   -  [浅谈零知识证明之三：zkSNARK证明体系的实现](https://zhuanlan.zhihu.com/p/150752963)
   -  [浅谈零知识证明之四：zkSNARK证明体系的实现（下）](https://zhuanlan.zhihu.com/p/159003974)
 
+- **零知识证明引论**
+
+  - [零知识证明引论（一）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247488922&idx=1&sn=a57b852193bfabf709d1db2989223dcc&chksm=fe4a7483c93dfd9591f3382bb3ea5cf00ae93117823c1fa5485aee4bf1c4b638adacb61a35c2&scene=178&cur_album_id=1594821581158055936#rd)
+  - [零知识证明引论（二）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247490390&idx=1&sn=b700e3bdf0d821871fd9e583cdc8b910&chksm=fe4a7a4fc93df3598498892a67243594eedd64be28c3dab8412f56c0d83d3fc481c73b17f70f&scene=178&cur_album_id=1594821581158055936#rd)
+  - [零知识证明引论（三）](https://mp.weixin.qq.com/s/VM7BTUix54NrGrcSKad2-Q)
+
+- **隐私计算笔谈-零知识证明系列专题**
+
+  - [零知识证明系列专题（一）：零知识证明与重置模拟](https://mp.weixin.qq.com/s?__biz=MzU0ODg1NDc1MQ==&mid=2247489786&idx=1&sn=338b316c0368410379c46318cd60ea92&chksm=fbb9964accce1f5c573f3b7cd3fe220da1b9723d0e112a308ed686da1c932f065c0c786cd792&scene=21#wechat_redirect)
+  - [零知识证明系列专题（二）：一个个人化的视角：零知识、模拟与归约](https://mp.weixin.qq.com/s?__biz=MzU0ODg1NDc1MQ==&mid=2247489993&idx=1&sn=0657d366530ac21e49d3a9a8083631a9&chksm=fbb99779ccce1e6f5df4c6a22d7de601de883585728788981c49bc5145d422f40d6bbd087cdc&scene=21#wechat_redirect)
+  - [零知识证明系列专题（三）：初识zk-SNARK](https://mp.weixin.qq.com/s/cdchHTNIlT88mDZwu2yKxw)
+  - [零知识证明系列专题（四）：基于Linear PCP的zk-SNARK](https://mp.weixin.qq.com/s/ZYmzn4-LfUD1o9NtDM8ahQ)
+  - [零知识证明系列专题（五）：用QSPs构造zk-SNARK](https://mp.weixin.qq.com/s/ksTFqX99zQDS0ECn7AqDQw)
+
 - **ZCash Explain Series**
   - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)

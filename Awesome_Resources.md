@@ -127,6 +127,7 @@ Stay tuned! 😁
 
 - **理解零知识算法PLONK**
   - [理解零知识算法PLONK（一）—电路](https://mp.weixin.qq.com/s/qr4njTJG89Mj_puIyzMu1w)
+  - [理解零知识算法PLONK（二）——协议](https://mp.weixin.qq.com/s/ecCnCH-Fd6_fhKqbzLhoMA)
 - **零知识证明项目Plonk代码初探**
 
   - [零知识证明项目Plonk代码初探](https://mp.weixin.qq.com/s/rEZxeJlB45VYr4b6l1Ngxw)

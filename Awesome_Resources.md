@@ -65,7 +65,7 @@ Stay tuned! 😁
 
 ### Great resource
 
-**Here are some awesome resources about ZKP **
+**Here are some awesome resources about ZKP**
 
 #### Courses
 

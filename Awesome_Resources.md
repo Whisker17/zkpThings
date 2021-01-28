@@ -98,6 +98,9 @@ Stay tuned! 😁
 
 #### Blogs
 
+- [包罗万象](https://cloud.tencent.com/developer/column/88853)
+- [MatterLabs](https://medium.com/matter-labs)
+
 #### Podcasts
 
 - [**Zero Knowledge Podcasts**](https://www.zeroknowledge.fm/)
@@ -149,13 +152,11 @@ Stay tuned! 😁
   -  [浅谈零知识证明之二：简短无交互证明（SNARK）](https://zhuanlan.zhihu.com/p/150246147)
   -  [浅谈零知识证明之三：zkSNARK证明体系的实现](https://zhuanlan.zhihu.com/p/150752963)
   -  [浅谈零知识证明之四：zkSNARK证明体系的实现（下）](https://zhuanlan.zhihu.com/p/159003974)
-
 - **零知识证明引论**
 
   - [零知识证明引论（一）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247488922&idx=1&sn=a57b852193bfabf709d1db2989223dcc&chksm=fe4a7483c93dfd9591f3382bb3ea5cf00ae93117823c1fa5485aee4bf1c4b638adacb61a35c2&scene=178&cur_album_id=1594821581158055936#rd)
   - [零知识证明引论（二）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247490390&idx=1&sn=b700e3bdf0d821871fd9e583cdc8b910&chksm=fe4a7a4fc93df3598498892a67243594eedd64be28c3dab8412f56c0d83d3fc481c73b17f70f&scene=178&cur_album_id=1594821581158055936#rd)
   - [零知识证明引论（三）](https://mp.weixin.qq.com/s/VM7BTUix54NrGrcSKad2-Q)
-
 - **隐私计算笔谈-零知识证明系列专题**
 
   - [零知识证明系列专题（一）：零知识证明与重置模拟](https://mp.weixin.qq.com/s?__biz=MzU0ODg1NDc1MQ==&mid=2247489786&idx=1&sn=338b316c0368410379c46318cd60ea92&chksm=fbb9964accce1f5c573f3b7cd3fe220da1b9723d0e112a308ed686da1c932f065c0c786cd792&scene=21#wechat_redirect)
@@ -163,7 +164,6 @@ Stay tuned! 😁
   - [零知识证明系列专题（三）：初识zk-SNARK](https://mp.weixin.qq.com/s/cdchHTNIlT88mDZwu2yKxw)
   - [零知识证明系列专题（四）：基于Linear PCP的zk-SNARK](https://mp.weixin.qq.com/s/ZYmzn4-LfUD1o9NtDM8ahQ)
   - [零知识证明系列专题（五）：用QSPs构造zk-SNARK](https://mp.weixin.qq.com/s/ksTFqX99zQDS0ECn7AqDQw)
-
 - **第九届BIU密码学冬令营**
 
   - [Alon Rosen: Introduction to Zero Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494043&idx=1&sn=0b31475c88222aca181633953c88dc99&chksm=facc539dcdbbda8b897784779af5cc57a92c7bbc834d795c9f0ba5f84dc9e3c2fe85f0881802&scene=21#wechat_redirect)
@@ -174,7 +174,6 @@ Stay tuned! 😁
   - [Ron Rothblum: Non-Interactive Zero-Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494281&idx=1&sn=e2ddcff1b16569cb8d99d0bdacc5249f&chksm=facc508fcdbbd999dfc229d6c4c967a24ee4e95a8c9f97c264402bb2504a1d90deba27c59618&scene=21#wechat_redirect)
   - [Ron Rothblum: The Fiat-Shamir Transform](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494320&idx=1&sn=83c1c90b04b5b0fdf6f55a26ee4a8631&chksm=facc50b6cdbbd9a0507536827d59bf7ea27c9fda4c99894deada0779875c5447a29188e2ef96&scene=21#wechat_redirect) 
   - [Alon Rosen: Lower Bounds and Limitations on Zero Knowledge](https://mp.weixin.qq.com/s/8PRus-sYqWrlysPh1xX1mQ)
-
 - **ZCash Explain Series**
 
   - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
@@ -185,6 +184,12 @@ Stay tuned! 😁
   - [The Pinocchio Protocol](https://z.cash/blog/snark-explain6)
   - [Pairings of Elliptic Curves](https://z.cash/blog/snark-explain7)
 
-  #### 
 
-  [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)
+#### Applications
+
+- [ZKSync](https://zksync.io/)
+  - [Github](https://github.com/matter-labs/zksync)
+- zkPoD
+- Loopring
+
+[**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)

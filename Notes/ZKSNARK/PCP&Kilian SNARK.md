@@ -295,3 +295,119 @@ R1CS，全名为**Rank-1 Constraint System**，其实讲白了就是三个矩阵
 和上一段结尾提到的问题一样，如果证明方在生成证明向量![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)之前，就已经看到了Query的值，那么他完全就可以**根据Query要取值的点来做弊**，制造出虚假的证明来。
 
 如何保证CRS中的Query不能被用来做弊，但是仍然还可以计算后面的内积呢？需要依靠一种比较特殊的加密系统：**线性加密系统（Linear-only Encoding）**。
+
+### 线性加密系统Linear-only Encoding
+
+我们来回顾一下对于这一加密系统的需求。我们把加密原文![[公式]](https://www.zhihu.com/equation?tex=x)的密文用![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bx%5D%5D)来表示。
+
+首先，为了防止证明方实现看到Query的内容进行作弊，我们的加密系统一定要能够**隐藏Query本身**。也就是说看到密文的证明方并不可以得到任何和原文有关的信息。这一点所有的加密算法都可以做到。
+
+其次，我们需要保证**证明方仍然可以生成内积**![[公式]](https://www.zhihu.com/equation?tex=%5B%5B%5Clangle+q_i%2C+%5Cpi+%5Crangle%5D%5D)，并且最后**验证方可以进行验证**。这一点其实是一个非常独特的需求，我们可以把这两个要求拆开来看一下：
+
+1. 证明方可以生成内积![[公式]](https://www.zhihu.com/equation?tex=%5B%5B%5Clangle+q_i%2C+%5Cpi+%5Crangle%5D%5D)。因为![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)里面也就是一串数字，所以这就是说证明方可以输出Query ![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bq_i%5D%5D)中的数值与![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)向量的数值的**线性组合**。完成这一点我们可以使用拥有**加法同态**特性的加密算法。
+2. 验证方可以验证![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D+%5Ccdot+%5B%5Bb%5D%5D+%3D+%5B%5Bc%5D%5D)。这也就是说，证明方通过加法同态性质得到的加密过后的![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D%2C+%5B%5Bc%5D%5D)需要通过**类似于乘法同态**一样的验证。这一点要求比较特殊，我们在选择加密算法的时候要额外注意。
+
+除了上面两条必须要符合的特性之外，出于安全性考虑我们还需要考虑第三条：
+
+1. 证明方**只能生成Query ![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bq_i%5D%5D)的线性组合，并不能生成任何其他的密文**。这个要求的原因很简单，如果证明方可以任意生成合理的密文的话，那么他就可以不管看到的Query是什么，随便生成一组合理的![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D%2C+%5B%5Bc%5D%5D)使得他们满足验证，就可以欺骗过验证方了。
+
+当我们归纳出这三条要求之后，接下来我们可以系统性地定义一下**线性加密系统**。
+
+1. **生成算法**![[公式]](https://www.zhihu.com/equation?tex=Gen%281%5E%5Clambda%29+%5Crightarrow+sk%2C+pk%2C+C)：我们首先需要随机生成一组密钥与公钥（![[公式]](https://www.zhihu.com/equation?tex=sk%2C+pk)），方便后续的操作。与此同时我们还需要输出一个密文空间![[公式]](https://www.zhihu.com/equation?tex=C)，为了后面验证证明方输出的内容是不是合理的线性组合。
+2. **加密算法**![[公式]](https://www.zhihu.com/equation?tex=Enc%28sk%2C+x+%5Cin+%5Cmathbb%7BF%7D%29+%5Crightarrow+c+%5Cin+C)：我们加密一个值![[公式]](https://www.zhihu.com/equation?tex=x)，并且输出一个密文![[公式]](https://www.zhihu.com/equation?tex=c)。
+3. **验证算法**![[公式]](https://www.zhihu.com/equation?tex=Verify%28pk%2C+C%2C+c%29+%5Crightarrow+1%2F0)：给定一个密文![[公式]](https://www.zhihu.com/equation?tex=c)，判断这个密文是不是属于我们的加密空间![[公式]](https://www.zhihu.com/equation?tex=C)当中。
+4. **加法同态运算**![[公式]](https://www.zhihu.com/equation?tex=Add%28pk%2C+c_1%2C+c_2+%5Cin+C%29+%5Crightarrow+c%5E%2A+%5Cin+C)：我们把两个密文相加，得到组合起来的密文，正好对应原本的原文相加的值。当我们拥有![[公式]](https://www.zhihu.com/equation?tex=Add)算法之后，我们就可以得到一个数字![[公式]](https://www.zhihu.com/equation?tex=x)的任意线性组合了：
+
+![[公式]](https://www.zhihu.com/equation?tex=Enc%28x+%2B+y%29+%3D+Enc%28x%29+%2B+Enc%28y%29%5C%5C+Enc%28ax%29+%3D+%5Cunderbrace%7BEnc%28x%29+%2B+Enc%28x%29+%2B+%5Ccdots+%2B+Enc%28x%29%7D_%5Ctext%7B%24a%24+times%7D+%5C%5C)
+
+1. **乘积验证**![[公式]](https://www.zhihu.com/equation?tex=QuadTest%28pk%2C+%28c_1%2C+c_2%2C+c_3+%5Cin+C%29%2C+%5Calpha%29+%5Crightarrow+1%2F0)：验证![[公式]](https://www.zhihu.com/equation?tex=c_1%2C+c_2%2C+c_3)这三个密文是否是正确的密文（即对应了某些![[公式]](https://www.zhihu.com/equation?tex=x_1%2C+x_2%2C+x_3)的值），并且判断![[公式]](https://www.zhihu.com/equation?tex=x_1+%5Ccdot+x_2+%5Cstackrel%7B%3F%7D%7B%3D%7D+%5Calpha+%5Ccdot+x_3)。
+
+一个线性加密系统还需要满足两条额外的**属性（properties）**：
+
+**单向性（One-way）**：这条属性是说，如果看到了![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bx%5D%5D)，我们不能推导出![[公式]](https://www.zhihu.com/equation?tex=x)的值。这一点确保了密文是安全的。
+
+**仅限线性组合（Linear-only）**：这一点要求了，如果给定了一组密文![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bx%5D%5D%2C+%5B%5By%5D%5D)，我们只能生成这组密文的线性组合，即![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bax+%2B+by%5D%5D)，但是不能生成任何其他的值来。这一点确保了我们不能在没有密钥的情况下任意生成合理的密文。
+
+一般来说，满足这些要求的线性加密系统很少。一个最常见的例子，就是有**Pairing配对属性的循环群**![[公式]](https://www.zhihu.com/equation?tex=%5Cmathbb%7BG%7D)了，比如说某些椭圆曲线。
+
+在循环群中，我们拥有生成元![[公式]](https://www.zhihu.com/equation?tex=g+%5Cin+%5Cmathbb%7BG%7D)。加密一个数字![[公式]](https://www.zhihu.com/equation?tex=x)就是![[公式]](https://www.zhihu.com/equation?tex=g%5Ex)，然后任何人都可以获得![[公式]](https://www.zhihu.com/equation?tex=g%5Ex)的线性组合（即![[公式]](https://www.zhihu.com/equation?tex=%28g%5Ex%29%5Ea+g%5Ey+%3D+g%5E%7Bax+%2B+y%7D)），但是很难通过![[公式]](https://www.zhihu.com/equation?tex=g%5Ex)推导出![[公式]](https://www.zhihu.com/equation?tex=x)，因为离散对数的困难性。
+
+同时，因为我们选择的循环群拥有**配对操作**，所以我们可以非常轻松的验证密文的乘积是否相等。
+
+![[公式]](https://www.zhihu.com/equation?tex=x_1+%5Ccdot+x_2+%5Cstackrel%7B%3F%7D%7B%3D%7D+%5Calpha+%5Ccdot+x_3%5C%5C+e%28g%5E%7Bx_1%7D%2C+g%5E%7Bx_2%7D%29+%3D+g%5E%7Bx_1+x_2%7D_T+%5Cstackrel%7B%3F%7D%7B%3D%7D+g%5E%7B%5Calpha+x_3%7D_T+%3D+e%28g%2C+%28g%5Ec%29%5E%5Calpha%29+%5C%5C)
+
+有了线性加密系统之后，我们之前在尝试无交互LPCP的时候遇到的作弊问题就引刃而解了。
+
+### **基于线性加密的无交互LPCP（SNARK）**
+
+当我们把线性加密系统应用于无交互LPCP的系统中，我们就得到SNARK了！
+
+因为距离上一期又过去了一段时间，我们再来回顾一下这个系列第二篇文章提到的**简短证明体系(SNARK)的三个核心算法：Setup，Prove和Verify**。
+
+1. ![[公式]](https://www.zhihu.com/equation?tex=Setup%28C%29+%5Crightarrow+%28S_p%2C+S_v%29)：通过实现约定好的电路，生成后续需要使用的随机参数![[公式]](https://www.zhihu.com/equation?tex=S_p)和![[公式]](https://www.zhihu.com/equation?tex=S_v)。
+2. ![[公式]](https://www.zhihu.com/equation?tex=Prove%28S_p%2C+x%2C+w%29+%5Crightarrow+%5Cpi)：通过公有输入![[公式]](https://www.zhihu.com/equation?tex=x)和私密输入![[公式]](https://www.zhihu.com/equation?tex=w)，生成零知识证明。
+3. ![[公式]](https://www.zhihu.com/equation?tex=Verify%28S_v%2C+x%2C+%5Cpi%29+%5Crightarrow+Yes%2FNo)：验证证明。
+
+接下来，我们结合刚刚学到的知识点，把SNARK的三个基本算法具体实现一下：
+
+1. ![[公式]](https://www.zhihu.com/equation?tex=Setup%28C%29+%5Crightarrow+%28S_p%2C+S_v%29)：首先，我们根据R1CS的电路的大小，随机选取我们要用到的Query ![[公式]](https://www.zhihu.com/equation?tex=q_1%2C+q_2%2C+q_3)，并且使用![[公式]](https://www.zhihu.com/equation?tex=Gen)算法初始化一个线性加密系统。最后，我们输出：
+
+![[公式]](https://www.zhihu.com/equation?tex=S_v+%5Cleftarrow+%5B%5Bq_1%5EL%5D%5D%2C+%5B%5Bq_2%5EL%5D%5D%2C+%5B%5Bq_3%5EL%5D%5D%5C%5C+S_p+%5Cleftarrow+%5B%5Bq_1%5ER%5D%5D%2C+%5B%5Bq_2%5ER%5D%5D%2C+%5B%5Bq_3%5ER%5D%5D+%5C%5C)
+
+1. ![[公式]](https://www.zhihu.com/equation?tex=Prove%28S_p%2C+x%2C+w%29+%5Crightarrow+%5Cpi)：证明的过程也很简单，证明方先准备好LPCP的证明字串![[公式]](https://www.zhihu.com/equation?tex=%5Cpi%27)，然后只需要输出![[公式]](https://www.zhihu.com/equation?tex=%5Cpi+%3D+%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D%2C+%5B%5Bc%5D%5D)（表达式中省略了单位矩阵的部分）:
+
+![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D+%3D+%5Clangle+%5B%5Bq_1%5ER%5D%5D%2C+%5Cpi%27+%5Crangle%5C%5C+%5B%5Bb%5D%5D+%3D+%5Clangle+%5B%5Bq_2%5ER%5D%5D%2C+%5Cpi%27+%5Crangle%5C%5C+%5B%5Bc%5D%5D+%3D+%5Clangle+%5B%5Bq_3%5ER%5D%5D%2C+%5Cpi%27+%5Crangle+%5C%5C)
+
+1. ![[公式]](https://www.zhihu.com/equation?tex=Verify%28S_v%2C+x%2C+%5Cpi%29+%5Crightarrow+Yes%2FNo)：验证就和我们之前说的一样，首先验证方需要自己计算![[公式]](https://www.zhihu.com/equation?tex=q_i%5EL)的部分，并且和证明方的结果合并起来，最后组成LPCP最后的验证等式![[公式]](https://www.zhihu.com/equation?tex=%5B%5B%5Clangle+q_1%2C+z+%5Crangle%5D%5D%2C+%5B%5B%5Clangle+q_2%2C+z+%5Crangle%5D%5D%2C+%5B%5B%5Clangle+q_3%2C+z+%5Crangle%5D%5D)。这个时候，验证方可以通过乘积验证![[公式]](https://www.zhihu.com/equation?tex=QuadTest)算法，来验证LPCP的三个数字是否满足![[公式]](https://www.zhihu.com/equation?tex=%5Clangle+q_1%2C+z+%5Crangle+%5Ccdot+%5Clangle+q_2%2C+z+%5Crangle+%5Cstackrel%7B%3F%7D%7B%3D%7D+%5Clangle+q_3%2C+z+%5Crangle)。
+
+这就是**基于LPCP的SNARK**的全貌了。我们发现这个系统满足了我们之前的所有要求，即**简短、无交互、知识证明**。在我们收尾之前，还有一些小细节需要关注一下。
+
+### **随机线性检查（Random Linearity Check）**
+
+当我们加上了线性加密系统之后，现在得到的SNARK还有一个**巨大的漏洞**。
+
+我们观察发现，因为Query的部分都是加密隐藏起来的，所以证明方还可以做一个骚操作：在计算![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D%2C+%5B%5Bc%5D%5D)的时候，**在中途偷偷的变换用到的证明**![[公式]](https://www.zhihu.com/equation?tex=%5Cpi%27)。因为证明方也可以自己跑![[公式]](https://www.zhihu.com/equation?tex=QuadTest)算法，他可以使用三个不同的![[公式]](https://www.zhihu.com/equation?tex=%5Cpi%27)值来得到最后的密文，并且使得密文的乘积相等，可以通过![[公式]](https://www.zhihu.com/equation?tex=QuadTest)测试，并且欺骗验证方。
+
+这一问题解决的方法也不难，我们需要修改一下LPCP协议，在中间多加上一个**随机线性检查（Random Linearity Check）**。
+
+在我们生成LPCP的Query ![[公式]](https://www.zhihu.com/equation?tex=q_1%5ER%2C+q_2%5ER%2C+q_3%5ER)的时候，我们随机的选取![[公式]](https://www.zhihu.com/equation?tex=%5Calpha%2C+%5Cbeta%2C+%5Cgamma)，然后额外的生成一个线性检查Query ![[公式]](https://www.zhihu.com/equation?tex=q%5E%2A+%3D+%5Calpha+q_1%5ER+%2B+%5Cbeta+q_2%5ER+%2B+%5Cgamma+q_3%5ER)。我们把![[公式]](https://www.zhihu.com/equation?tex=q%5E%2A)也发送给证明方，并且要求证明方提供![[公式]](https://www.zhihu.com/equation?tex=%5Clangle+q%5E%2A%2C+%5Cpi+%5Crangle)的内积![[公式]](https://www.zhihu.com/equation?tex=d)。
+
+这样一来，最后验证方可以收到四个数字，即![[公式]](https://www.zhihu.com/equation?tex=a%2C+b%2C+c%2C+d)。这个时候验证方就可以验证：
+
+![[公式]](https://www.zhihu.com/equation?tex=d+%5Cstackrel%7B%3F%7D%7B%3D%7D+%5Calpha+a+%2B+%5Cbeta+b+%2B+%5Cgamma+c+%5C%5C)
+
+如果符合检查的话，那就表示证明方在生成![[公式]](https://www.zhihu.com/equation?tex=a%2C+b%2C+c%2C+d)的时候，用到的是同样的![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)啦。
+
+同理可得，在SNARK中，我们需要在![[公式]](https://www.zhihu.com/equation?tex=Setup)阶段额外的生成一组![[公式]](https://www.zhihu.com/equation?tex=q%5E%2A)。随后我们在在![[公式]](https://www.zhihu.com/equation?tex=S_v)中额外添加![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bq%5E%7B%2AL%7D%5D%5D%2C+%5B%5B%5Calpha%5D%5D%2C+%5B%5B%5Cbeta%5D%5D%2C+%5B%5B%5Cgamma%5D%5D)，并且在![[公式]](https://www.zhihu.com/equation?tex=S_p)中添加![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bq%5E%7B%2AR%7D%5D%5D)。随后，证明方提交的证明中额外需要提交一个![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bd%5D%5D+%3D+%5Clangle+q%5E%7B%2AR%7D%2C+%5Cpi%27+%5Crangle)。
+
+这样一来，验证方可以首先通过![[公式]](https://www.zhihu.com/equation?tex=QuadTest)，验证![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D%2C+%5B%5Bc%5D%5D)与![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bd%5D%5D)之间的关系，确保证明方没有做弊。验证通过之后，再验证![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D)与![[公式]](https://www.zhihu.com/equation?tex=%5B%5Bc%5D%5D)的关系。**如果两次检查都通过了，那就基本上等于LPCP通过了**。
+
+加上随机线性检查之后，我们就得到了zkSNARK中的SNARK的完全体啦。
+
+如果你看到这儿，我们已经**完成了99%**！最后一步也是最简单的一步，就是**加上零知识**。
+
+### **加入零知识（zk）**
+
+我们在当前的SNARK中，只需要做一个非常细微的变动，就可以转换成**zkSNARK**了。
+
+我们观察发现，证明方唯一暴露给验证方的数据，就是![[公式]](https://www.zhihu.com/equation?tex=%5B%5Ba%5D%5D%2C+%5B%5Bb%5D%5D%2C+%5B%5Bc%5D%5D%2C+%5B%5Bd%5D%5D)这四个值，其中![[公式]](https://www.zhihu.com/equation?tex=d)是![[公式]](https://www.zhihu.com/equation?tex=a%2C+b%2C+c)组合得到的。这也就是说，只要我们**确保![[公式]](https://www.zhihu.com/equation?tex=a%2C+b%2C+c)不会暴露任何信息**，那这个协议就符合零知识的定义了。
+
+我们再仔细观察就会发现，![[公式]](https://www.zhihu.com/equation?tex=a%2C+b%2C+c)这三个数字，无疑就是多项式![[公式]](https://www.zhihu.com/equation?tex=f%2C+g%2C+h)的取值。因为零知识的定义是，我们不能泄漏**任何一丁点**信息，所以我们也不能暴露多项式![[公式]](https://www.zhihu.com/equation?tex=f%2C+g%2C+h)的取值。如果取值看到的过多了，甚至还可以通过**插值**的方法还原出系数。
+
+解决的方法也非常简单，我们只需要在一开始还原多项式![[公式]](https://www.zhihu.com/equation?tex=f%2C+g%2C+h)的时候，**额外选择两个随机数**![[公式]](https://www.zhihu.com/equation?tex=%5Cdelta_1%2C+%5Cdelta_2)，并且多加一组取值点，使得![[公式]](https://www.zhihu.com/equation?tex=f%280%29+%3D+%5Cdelta_1%2C+g%280%29+%3D+%5Cdelta_2%2C+h%280%29+%3D+f%280%29+%5Ccdot+g%280%29)。这样一来我们还原出来的多项式，因为多了一阶（之前是![[公式]](https://www.zhihu.com/equation?tex=m-1)阶，现在是![[公式]](https://www.zhihu.com/equation?tex=m)阶），所以整体的样子看上去和原来的多项式完全不同。
+
+具体的证明我在这里就不多说了，不过大概的构造是：如果我们**在给定的一组取值点中再额外增加一个随机取值点**的话，那么最后新得到的多项式就会**拥有和这个随机数类似的一个随机分布**，这样我们就没法从新得到的多项式中看到和原来的多项式相关的任何信息，也就是我们所说的零知识了。
+
+以上就是zkSNARK的整体构造啦！完结撒花。
+
+在结束之前，我还想再和大家聊一聊对于SNARK中![[公式]](https://www.zhihu.com/equation?tex=Setup)这一步的细节。
+
+### **可信初始化（Trusted Setup）**
+
+我们观察会发现，在我们构造的zkSNARK体系当中，Setup这一步需要由第三方来完成。在整个协议的过程中，只要证明方得知任何一点Setup中用到的数值（比如说随机数、随机种子等等），那么证明方就可以马上用这些知识来做弊，使得自己可以生成虚假证明，欺骗任何人。
+
+如果应用在ZCash场景中（第一期有所提到），如果掌握了这些随机参数的人，就可以随机的给自己发钱，任意铸币，破坏整个生态系统。
+
+这也就是说，单纯的委托第三方来生成这些参数的话，我们还必须要确保第三方必须要在生成完之后，**彻底摧毁**所用生成所用的参数。这一过程我们称之为**可信初始化（Trusted Setup）**。ZCash在可信初始化这步做出了各种惊人的举动：比如去切尔诺贝利核电站去读取辐射数据，用辐射的指数作为随机数值来生成Query等等……
+
+我们通过LPCP生成的SNARK中，所有的Query ![[公式]](https://www.zhihu.com/equation?tex=q_1%2C+q_2%2C+q_3)的维度都是挂钩于我们最初R1CS的电路大小的。这也就是说，我们**对于每个电路的验证，都需要经过一次可信初始化的过程**。这其实是一个比较麻烦的事情，如果我们想要验证别的东西，或者修改电路逻辑，我们就需要额外的再初始化一次，这会浪费很多资源，并且效率也不是很高。虽然对于ZCash来说，验证的电路都是相同的（验证交易的数额与Nullifier），但是这仍然是zkSNARK面临的一个巨大挑战。

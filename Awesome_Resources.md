@@ -139,6 +139,9 @@ Stay tuned! 😁
   - [零知识项目plonk--基础算法概述](https://mp.weixin.qq.com/s/Al71QxRX97ElpDdlSGipSg)
   - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://mp.weixin.qq.com/s/DOfsU1eagQFNMc6TTY-bsg)
   - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
+- Star Li 的 PlonK 系列
+
+  - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
 
 #### SNARKs
 
@@ -174,6 +177,7 @@ Stay tuned! 😁
   - [Ron Rothblum: Non-Interactive Zero-Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494281&idx=1&sn=e2ddcff1b16569cb8d99d0bdacc5249f&chksm=facc508fcdbbd999dfc229d6c4c967a24ee4e95a8c9f97c264402bb2504a1d90deba27c59618&scene=21#wechat_redirect)
   - [Ron Rothblum: The Fiat-Shamir Transform](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494320&idx=1&sn=83c1c90b04b5b0fdf6f55a26ee4a8631&chksm=facc50b6cdbbd9a0507536827d59bf7ea27c9fda4c99894deada0779875c5447a29188e2ef96&scene=21#wechat_redirect) 
   - [Alon Rosen: Lower Bounds and Limitations on Zero Knowledge](https://mp.weixin.qq.com/s/8PRus-sYqWrlysPh1xX1mQ)
+  - [Non Black-Box Zero Knowledge (Barak’s Protocol)](https://mp.weixin.qq.com/s/eHYd2ZK06TFV5U8iO6ffIQ)
 - **ZCash Explain Series**
 
   - [Homomorphic Hiding](https://z.cash/blog/snark-explain)

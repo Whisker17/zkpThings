@@ -155,8 +155,14 @@ Stay tuned! 😁
   -  [浅谈零知识证明之二：简短无交互证明（SNARK）](https://zhuanlan.zhihu.com/p/150246147)
   -  [浅谈零知识证明之三：zkSNARK证明体系的实现](https://zhuanlan.zhihu.com/p/150752963)
   -  [浅谈零知识证明之四：zkSNARK证明体系的实现（下）](https://zhuanlan.zhihu.com/p/159003974)
-- **零知识证明引论**
+- **从零开始学习 zk-SNARK**
 
+  - [从零开始学习 zk-SNARK（一）——多项式的性质与证明](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484148&idx=1&sn=7cc0f42d16cdc9dd3ec9aced08b68ee8&chksm=9780aa38a0f7232e5ed8f939f4ef2dd9a6fa8be0514adb552ca0139cbe4815bc2d3804ca70cf&scene=21#wechat_redirect)
+  - [从零开始学习 zk-SNARK（二）——多项式的非交互式零知识证明](http://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484247&idx=1&sn=f6ebfc82f105b6253f7d3b97ad77dc22&chksm=9780ab9ba0f7228dbd9d63a46b8aeaabc791b833ca9372a74978d0a496c4d4f4083b347b373f&scene=21#wechat_redirect)
+  - [从零开始学习 zk-SNARK（三）——从程序到多项式的构造](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484357&idx=1&sn=c07ab2eab9fc81122f4788418eba2af1&chksm=9780ab09a0f7221f0eb5049da5056bdbe9702a6fc03e3d053ad18ea60e9d75c2037ad545e1a0&scene=21#wechat_redirect)
+  - [从零开始学习 zk-SNARK（四）——多项式的约束](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484591&idx=1&sn=f93a4197ebea256a2d4b428aa0440b71&chksm=9780ac63a0f72575ddb8cad0db4844e441ab17aee870c9f32c4f7716f4297b90b4750784cab7&scene=21#wechat_redirect)
+  - [从零开始学习 zk-SNARK（五）—— Pinocchio 协议](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484672&idx=1&sn=a41bc8436703e8e2bab9ad16634956e5&chksm=9780adcca0f724dadb06f670a9b783c6d50426354e408b3b7a7d7f5d21dddc061c7cc9aa19ac&scene=126&sessionid=1582877142&key=8acab5498f5cdd67ccdcd60cacf7129275858b33cf051cb3d67903d157d9350a31006558d408e9ffe0a1da53f002b6cb74a1b7508974921c75e2814d68a474b1ba4ee891ad6afe73cb35216da65831a8&ascene=1&uin=MjkxMDEwNDIxNg%3D%3D&devicetype=Windows+10&version=6208006f&lang=zh_CN&exportkey=AWgf%2Bf10pjTA0YsptVykVCg%3D&pass_ticket=eANWZ1i%2FBVe2hlVxaFZlGG9Ldcz1txhiBosrZnI%2FCCsXSH3S0fEMOZdkQFdlShrQ)
+- **零知识证明引论**
   - [零知识证明引论（一）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247488922&idx=1&sn=a57b852193bfabf709d1db2989223dcc&chksm=fe4a7483c93dfd9591f3382bb3ea5cf00ae93117823c1fa5485aee4bf1c4b638adacb61a35c2&scene=178&cur_album_id=1594821581158055936#rd)
   - [零知识证明引论（二）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247490390&idx=1&sn=b700e3bdf0d821871fd9e583cdc8b910&chksm=fe4a7a4fc93df3598498892a67243594eedd64be28c3dab8412f56c0d83d3fc481c73b17f70f&scene=178&cur_album_id=1594821581158055936#rd)
   - [零知识证明引论（三）](https://mp.weixin.qq.com/s/VM7BTUix54NrGrcSKad2-Q)

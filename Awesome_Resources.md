@@ -139,6 +139,7 @@ Stay tuned! 😁
   - [零知识项目plonk--基础算法概述](https://mp.weixin.qq.com/s/Al71QxRX97ElpDdlSGipSg)
   - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://mp.weixin.qq.com/s/DOfsU1eagQFNMc6TTY-bsg)
   - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
+  - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
 - Star Li 的 PlonK 系列
 
   - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)

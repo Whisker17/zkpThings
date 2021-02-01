@@ -12,13 +12,13 @@
 
 什么是数学运算电路呢？我们先来看一看传统的逻辑电路。
 
-![image-20210129091913829](./pic/image-20210129091913829.png)
+![image-20210129091913829](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102948.png)
 
 **像AND和OR这样的基础逻辑门是逻辑电路的基础模块，通过拼加和堆叠我们可以实现任何复杂逻辑。**
 
 而数字运算电路中，我们**选用“加法门”和“乘法门”作为我们数学运算电路的基础模块**。
 
-![image-20210129092410564](./pic/image-20210129092410564.png)
+![image-20210129092410564](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201103010.png)
 
 上图的数字运算电路即为逻辑电路的转换。
 
@@ -26,7 +26,7 @@
 
 ![[公式]](https://www.zhihu.com/equation?tex=n+%5Cin+%5B0%2C+1%5D+%5Ciff+n+%5Ccdot+%28n-1%29+%3D+0+%5C%5C)
 
-![image-20210129095556772](./pic/image-20210129095556772.png)
+![image-20210129095556772](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201103017.png)
 
 ## 第三步：转换为可证明数学运算电路
 
@@ -34,7 +34,7 @@
 
 首先，我们先定义一下**可以用作证明的数字运算电路C(x, w)**，具体构造如下：
 
-![image-20210129095941022](./pic/image-20210129095941022.png)
+![image-20210129095941022](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201103026.png)
 
 简单的来说，这个电路C有两组输入。
 
@@ -44,7 +44,7 @@
 
 当我们有C这一个电路之后，我们的目标就是**证明C(x, w) = 0**。换句话来说，在A和B已知数学运算电路C输出为0，并且公有输入为x的情况下，A需要证明她知道能够构成这个输出的私密输入值w。
 
-![image-20210129100242169](./pic/image-20210129100242169.png)
+![image-20210129100242169](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201103032.png)
 
 
 
@@ -63,6 +63,6 @@
 3. **验证算法Verify**：![[公式]](https://www.zhihu.com/equation?tex=Verify%28S_v%2C+x%2C+%5Cpi%29+%5Crightarrow+Yes%2FNo)
    验证算法也非常的直白，验证方会用Verify这个算法验证我们收到的证明![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)。这个算法会返回一个1/0的数值，代表验证是否通过。验证的过程中除了需要对方提供的证明![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)，我们还需要预处理数据![[公式]](https://www.zhihu.com/equation?tex=S_v)，还有公有输入x。验证的复杂度也非常小，一般来说是 ![[公式]](https://www.zhihu.com/equation?tex=O%28%7Cx%7C+%2B+log%7CC%7C%29)。
 
-![image-20210129100834044](./pic/image-20210129100834044.png)
+![image-20210129100834044](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201103039.png)
 
 **证明方提交的这个证明![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)可以充分说服验证方，让其相信证明方真的有这么一个秘密的w可以满足C(x, w) = 0。**

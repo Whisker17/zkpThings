@@ -6,13 +6,13 @@
 
 什么叫概率验证呢？其实我们可以把它理解为**随机抽查**：如果A有一个很复杂的问题的解，但是这个解很长很长，那么B就可以通过随机抽查这个解的某几位来大概确定A的解是否准确。**因为A不知道B会抽查哪一位，所以A没有任何有利的方法作弊**，B每抽查验证成功一次，A的解是错误的解的可能性就下降一次。
 
-因为**所有的NP问题都可以有效地转换为数学运算电路**，PCP定理指出，对于所有的电路![[公式]](https://www.zhihu.com/equation?tex=C)，我们都可以构造一套概率验证体系![[公式]](https://www.zhihu.com/equation?tex=%28S%2C+P%2C+V%29)，其工作方式如下：
+因为**所有的NP问题都可以有效地转换为数学运算电路**，PCP定理指出，对于所有的电路![[公式]](https://www.zhihu.com/equation?tex=C)，我们都可以构造一套概率验证体系![[公式]](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102835.svg+xml)，其工作方式如下：
 
-![[公式]](https://www.zhihu.com/equation?tex=%5Cforall+C%3A+%5Cexists+%5Ctext%7B+Proof+System+%7D+%28S%2C+P%2C+V%29%3A+%5C%5C+S%28C%29+%5Crightarrow+%28C%2C+S_v%29+%5C%5C)
+![[公式]](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102841.svg+xml)
 
 生成算法Setup还是和以前一样，把电路![[公式]](https://www.zhihu.com/equation?tex=C)转换成后续会用到的随机参数。
 
-![img](https://pic3.zhimg.com/80/v2-266dc0e8b93d9aa8ce2b3e7d5174d94e_1440w.jpg)
+![img](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102846.jpeg)
 
 **验证方并不能看到所有的![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)，只能通过一个query机制来检查这个证明![[公式]](https://www.zhihu.com/equation?tex=%5Cpi)随机的![[公式]](https://www.zhihu.com/equation?tex=k)位数**。通过看完这![[公式]](https://www.zhihu.com/equation?tex=k)位数之后，验证方就需要输出验证结果。
 
@@ -48,7 +48,7 @@ Kilian SNARK其实就是对PCP证明系统做出了一个小小的改进。与�
 
 首先，我们需要随便定义一个交互式的随机验证协议![[公式]](https://www.zhihu.com/equation?tex=I)：
 
-![img](https://pic4.zhimg.com/80/v2-c844d33c4fd307bbf4781f93cf35878b_1440w.jpg)
+![img](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102903.jpeg)
 
 图上表示的是非常笼统的交互式证明![[公式]](https://www.zhihu.com/equation?tex=I)，**这个流程图同样也适配于我们之前讨论的交互式Kilian SNARK**。总的来说就是证明方会根据验证方提供的随机字串![[公式]](https://www.zhihu.com/equation?tex=rand_i)来返回对应的消息![[公式]](https://www.zhihu.com/equation?tex=m_i)。
 

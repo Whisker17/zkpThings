@@ -8,11 +8,11 @@
 
 既然我们想要规定w是个整数，并且大于0但小于2^256，那么我们就可以在二进制里，**把w拆分成256位，然后分别约束每一位**。这样的话，我们最后得到的电路大小只会和这个数字有多少位成正比，而不会和这个数字的最大上限有关系。复杂度一下子就下来了一大个等级。
 
-![image-20210129103213431](./pic/image-20210129103213431.png)
+![image-20210129103213431](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102926.png)
 
 这个约束需要256份，每一份对应每一位。当我们把这些约束准备好之后，我们最后确定所有的位组在一起可以还原成原来的w：
 
 ![[公式]](https://www.zhihu.com/equation?tex=2%5E0+w_0+%2B+2%5E1+w_1+%2B+...+%2B+2%5E%7B255%7D+w_%7B255%7D+-+w+%3D+0+%5C%5C)
 
-![img](https://pic1.zhimg.com/80/v2-0fb34f637414ba2e9bc94a25ce39de60_1440w.jpg)
+![img](https://raw.githubusercontent.com/Whisker17/ImageStoreService/master/img/20210201102937.jpeg)
 

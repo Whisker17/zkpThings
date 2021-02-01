@@ -58,7 +58,7 @@ Stay tuned! 😁
 
 #### Other Prove Systems
 
-- [Groth16](https://eprint.iacr.org/2016/260.pdf)
+- [**Groth16**](https://eprint.iacr.org/2016/260.pdf)
   - [DIZK (WZCPS18)](https://eprint.iacr.org/2018/691)
 - [BCCGP16](https://eprint.iacr.org/2016/263.pdf)
   - [Bulletproofs (BBBPWM17)](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
@@ -100,6 +100,7 @@ Stay tuned! 😁
 
 - [包罗万象](https://cloud.tencent.com/developer/column/88853)
 - [MatterLabs](https://medium.com/matter-labs)
+- [mutourend](https://blog.csdn.net/mutourend)
 
 #### Podcasts
 
@@ -141,9 +142,9 @@ Stay tuned! 😁
   - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
   - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
   - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
-- Star Li 的 PlonK 系列
-
-  - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
+- **Star Li 的 PlonK 系列**
+- [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
+  - [零知识证明 - PLONK电路原理](https://mp.weixin.qq.com/s/D9q5-ubGVCf_TK5fQdD9qQ)
 
 #### SNARKs
 
@@ -186,9 +187,9 @@ Stay tuned! 😁
   - [Ron Rothblum: The Fiat-Shamir Transform](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494320&idx=1&sn=83c1c90b04b5b0fdf6f55a26ee4a8631&chksm=facc50b6cdbbd9a0507536827d59bf7ea27c9fda4c99894deada0779875c5447a29188e2ef96&scene=21#wechat_redirect) 
   - [Alon Rosen: Lower Bounds and Limitations on Zero Knowledge](https://mp.weixin.qq.com/s/8PRus-sYqWrlysPh1xX1mQ)
   - [Non Black-Box Zero Knowledge (Barak’s Protocol)](https://mp.weixin.qq.com/s/eHYd2ZK06TFV5U8iO6ffIQ)
+  - [Fiat-Shamir: from Practice to Theory](https://mp.weixin.qq.com/s/CfHWL_IqSn7cj60qqS-HiQ)
 - **ZCash Explain Series**
-
-  - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+- [Homomorphic Hiding](https://z.cash/blog/snark-explain)
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
   - [The Knowledge of Coefficient Test and Assumption](https://z.cash/blog/snark-explain3)
   - [How to make Blind Evaluation of Polynomials Verifiable](https://z.cash/blog/snark-explain4)
@@ -196,12 +197,29 @@ Stay tuned! 😁
   - [The Pinocchio Protocol](https://z.cash/blog/snark-explain6)
   - [Pairings of Elliptic Curves](https://z.cash/blog/snark-explain7)
 
+##### Groth16
+
+[**paper**](https://eprint.iacr.org/2016/260.pdf)
+
+- **Star Li 对 Groth16 的相关解析**
+  - [零知识证明 - Groth16算法介绍](https://mp.weixin.qq.com/s/SguBb5vyAm2Vzht7WKgzug)
+  - [零知识证明 - Groth16计算详解](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486744&idx=1&sn=26425829ffedf25e9cf2652eb2dd24cd&chksm=fe131c08c964951ee9ce7204425b0f38a15a87e09da9fa44219ca3b53f2572dffe34904f8b60&scene=178&cur_album_id=1458661849167511555#rd)
+  - [零知识证明 - 有关Groth16的zk证明的理解](https://mp.weixin.qq.com/s/x1ggw3VplXAIeL87D5bUfw)
+
 
 #### Applications
 
-- [ZKSync](https://zksync.io/)
+- [**ZKSync**](https://zksync.io/)
   - [Github](https://github.com/matter-labs/zksync)
+  - [Docs](https://zksync.io/faq/intro.html)
+  - Star Li 的相关文章
+    - [L2 - zkSync源代码导读](https://mp.weixin.qq.com/s/yasWike0I5mO7g4KVnKGoQ)
+    - [L2 - 深入理解zkSync电路](https://mp.weixin.qq.com/s/lTuKbI2S1tOHeYYNm9A2dQ)
+    - [L2 - zkSync服务搭建](https://mp.weixin.qq.com/s/Igkc2dQbjOUYGii1dairpA)
 - zkPoD
 - Loopring
+- Aztec
+
+  - [利用 AZTEC 协议进行匿名隐私转账](https://learnblockchain.cn/2019/10/18/aztec)
 
 [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)

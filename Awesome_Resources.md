@@ -188,6 +188,8 @@ Stay tuned! 😁
   - [Alon Rosen: Lower Bounds and Limitations on Zero Knowledge](https://mp.weixin.qq.com/s/8PRus-sYqWrlysPh1xX1mQ)
   - [Non Black-Box Zero Knowledge (Barak’s Protocol)](https://mp.weixin.qq.com/s/eHYd2ZK06TFV5U8iO6ffIQ)
   - [Fiat-Shamir: from Practice to Theory](https://mp.weixin.qq.com/s/CfHWL_IqSn7cj60qqS-HiQ)
+  - [Sigma Protocols](https://mp.weixin.qq.com/s/gfOTE3XC7UR1ZBmbrgVMzg)
+  - [Compilers for Zero-Knowledge: An Overview](https://mp.weixin.qq.com/s/_hWgqTm3eywHoV5HIVmhZQ)
 - **ZCash Explain Series**
 - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)

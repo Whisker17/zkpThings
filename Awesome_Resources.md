@@ -142,9 +142,14 @@ Stay tuned! 😁
   - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
   - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
   - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
+  - [零知识证明plonk算法解析6--递归证明](https://mp.weixin.qq.com/s/jc9gkc3thxga__oOf4SdMg)
 - **Star Li 的 PlonK 系列**
-- [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
+  - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
   - [零知识证明 - PLONK电路原理](https://mp.weixin.qq.com/s/D9q5-ubGVCf_TK5fQdD9qQ)
+
+- **ZKSwap 解读 PLONK**
+  - [ZKSwap 团队解读零知识证明 PLONK 电路](https://www.chainnews.com/articles/372708200478.htm)
+  - [ZKSwap 团队解读零知识证明 PLONK 协议](https://www.chainnews.com/articles/254075343460.htm)
 
 #### SNARKs
 
@@ -208,6 +213,21 @@ Stay tuned! 😁
   - [零知识证明 - Groth16计算详解](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486744&idx=1&sn=26425829ffedf25e9cf2652eb2dd24cd&chksm=fe131c08c964951ee9ce7204425b0f38a15a87e09da9fa44219ca3b53f2572dffe34904f8b60&scene=178&cur_album_id=1458661849167511555#rd)
   - [零知识证明 - 有关Groth16的zk证明的理解](https://mp.weixin.qq.com/s/x1ggw3VplXAIeL87D5bUfw)
 
+#### Bulletproofs
+
+[**paper**](https://eprint.iacr.org/2017/1066.pdf)
+
+- **ZKSwap 解读 Bulletproofs**
+  - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Range Proof 1](https://www.chainnews.com/articles/906346355088.htm)
+  - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Range Proof 2](https://www.chainnews.com/articles/930258000410.htm)
+  - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Range Proof 3](https://www.chainnews.com/articles/522023372101.htm)
+  - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Arithmetic Circuits](https://www.chainnews.com/articles/574860473072.htm)
+
+#### STARK
+
+- **ZKSwap 解读 ZK-STARK**
+  - [ZKSwap 团队解读零知识证明算法之 Zk-STARK](https://www.chainnews.com/articles/621681266821.htm)
+  - [ZKSwap 团队解读零知识证明算法之 Zk-STARK （二）——Arithmetization](https://www.chainnews.com/articles/247007102433.htm)
 
 #### Applications
 
@@ -220,6 +240,7 @@ Stay tuned! 😁
     - [L2 - zkSync服务搭建](https://mp.weixin.qq.com/s/Igkc2dQbjOUYGii1dairpA)
 - zkPoD
 - Loopring
+- ZKSwap
 - Aztec
 
   - [利用 AZTEC 协议进行匿名隐私转账](https://learnblockchain.cn/2019/10/18/aztec)

@@ -84,15 +84,11 @@ Stay tuned! 😁
 #### Collection of resources
 
 - [**awesome-zero-knowledge-proofs**](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
-
 - **[zklangs](https://github.com/HarryR/zklangs)**
-
 - **[learning-zkp](https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md)** (Chinese)
-
 - [**zkp.science**](https://zkp.science/)
-
 - [**Zero-Knowledge Proofs Starter Pack**](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
-- 
+- [**Awesome PLONK**](https://github.com/Fluidex/awesome-plonk)
 
 ### Social
 

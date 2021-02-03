@@ -38,7 +38,7 @@ zkSNARK 就是对上述问题的一个解决方案。使用 zkSNARK，一个证�
 
 Groth16 选择的是一个叫做 **Quadratic Arithmetic Programming (QAP)** 的问题。
 
-![image-20210201151855735](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201151855735.png)
+![image-20210201151855735](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170056.png)
 
 ## QAP 问题
 
@@ -46,11 +46,11 @@ Groth16 选择的是一个叫做 **Quadratic Arithmetic Programming (QAP)** 的�
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/SibzTfiakrIr2YebgzzZJibqf4NzjjicU593qr7nusCmicqWw8qkD4B8ibw1ictCXmTFq0TiapQmXKdMSzCkicOiaEz1q0FA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-![image-20210201154047709](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201154047709.png)
+![image-20210201154047709](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203165855.png)
 
 我们用一个表格总结一下上文中提到的所有问题。
 
-![image-20210201154221725](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201154221725.png)
+![image-20210201154221725](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170126.png)
 
 为什么要越搞越复杂，把电路问题转化为 QAP 问题呢？一个简单的回答：就是为了引入多项式！多项式是一个强大的工具。多项式的作用，可以理解为一个“杠杆”，或者叫“误差放大器”。如果我们要检查两个长度为 10000 的向量是否相等，一定需要检查 10000 次，哪怕检查过了 9999 个点都是一样的，也不能保证最后一点是相同的。而两个 10000 次的多项式，哪怕非常接近，比如说它们的系数有 9999 个都相同，或者它们在 1,2,...,999这些点上的取值都相等，但只要有一个点不同，这两个多项式就截然不同。这意味着，如果在一个很大的范围内，例如 1 到 100000000 当中均匀随机选一个点，两个不同的多项式在这个点上相等的机会只有 1/10000 。检查两个多项式是否相等，比检查同样规模的向量要快得多，**这几乎是所有 zkSNARK 提高 Verifier 效率的根本原理**。
 
@@ -60,29 +60,29 @@ Groth16 选择的是一个叫做 **Quadratic Arithmetic Programming (QAP)** 的�
 
 ### KoE 假设
 
-![image-20210201163153364](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201163153364.png)
+![image-20210201163153364](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170134.png)
 
 ### 双线性配对
 
-![image-20210201163338668](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201163338668.png)
+![image-20210201163338668](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170142.png)
 
 ## Groth16
 
-![image-20210201174125020](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201174125020.png)
+![image-20210201174125020](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170148.png)
 
 ### Setup
 
-![image-20210201174301307](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201174301307.png)
+![image-20210201174301307](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170155.png)
 
 ### Prove
 
-![image-20210201174340708](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201174340708.png)
+![image-20210201174340708](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170202.png)
 
 ### Verify
 
-![image-20210201174435083](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201174435083.png)
+![image-20210201174435083](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170213.png)
 
 ### 解析
 
-![image-20210201181235859](C:\Users\yukai\AppData\Roaming\Typora\typora-user-images\image-20210201181235859.png)
+![image-20210201181235859](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210203170219.png)
 

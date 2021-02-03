@@ -116,7 +116,13 @@ Stay tuned! 😁
   - [libsnark源代码解析和实战](https://www.bilibili.com/video/BV1qA411t7QP)
   - [零知识证明场景](https://www.bilibili.com/video/BV1Gg4y1B7CT)
   - [其他](https://www.bilibili.com/video/BV14e411W7Db)
-- 
+- **零知识证明plonk算法系列**
+  - [零知识项目plonk--基础算法概述](https://mp.weixin.qq.com/s/Al71QxRX97ElpDdlSGipSg)
+  - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://mp.weixin.qq.com/s/DOfsU1eagQFNMc6TTY-bsg)
+  - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
+  - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
+  - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
+  - [零知识证明plonk算法解析6--递归证明](https://mp.weixin.qq.com/s/jc9gkc3thxga__oOf4SdMg)
 
 #### WeChat Official Accounts
 
@@ -136,13 +142,6 @@ Stay tuned! 😁
 
   - [零知识证明项目Plonk代码初探](https://mp.weixin.qq.com/s/rEZxeJlB45VYr4b6l1Ngxw)
   - [plonk代码导读--门电路build](https://mp.weixin.qq.com/s/ts2j8UrU7RPAZiU4F_LFuQ)
-- **零知识证明plonk算法系列**
-  - [零知识项目plonk--基础算法概述](https://mp.weixin.qq.com/s/Al71QxRX97ElpDdlSGipSg)
-  - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://mp.weixin.qq.com/s/DOfsU1eagQFNMc6TTY-bsg)
-  - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
-  - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
-  - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
-  - [零知识证明plonk算法解析6--递归证明](https://mp.weixin.qq.com/s/jc9gkc3thxga__oOf4SdMg)
 - **Star Li 的 PlonK 系列**
   - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
   - [零知识证明 - PLONK电路原理](https://mp.weixin.qq.com/s/D9q5-ubGVCf_TK5fQdD9qQ)
@@ -196,7 +195,9 @@ Stay tuned! 😁
   - [Sigma Protocols](https://mp.weixin.qq.com/s/gfOTE3XC7UR1ZBmbrgVMzg)
   - [Compilers for Zero-Knowledge: An Overview](https://mp.weixin.qq.com/s/_hWgqTm3eywHoV5HIVmhZQ)
 - **ZCash Explain Series**
-- [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+
+  - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
   - [The Knowledge of Coefficient Test and Assumption](https://z.cash/blog/snark-explain3)
   - [How to make Blind Evaluation of Polynomials Verifiable](https://z.cash/blog/snark-explain4)
@@ -228,6 +229,8 @@ Stay tuned! 😁
 - **ZKSwap 解读 ZK-STARK**
   - [ZKSwap 团队解读零知识证明算法之 Zk-STARK](https://www.chainnews.com/articles/621681266821.htm)
   - [ZKSwap 团队解读零知识证明算法之 Zk-STARK （二）——Arithmetization](https://www.chainnews.com/articles/247007102433.htm)
+  - [ZKSwap团队深入解读零知识证明算法之Zk-stark：Low Degree Testing](https://learnblockchain.cn/article/2103)
+  - [ZKSwap团队深入解读零知识证明算法之Zk-stark——FRI协议](https://learnblockchain.cn/article/2104)
 
 #### Applications
 
@@ -244,5 +247,6 @@ Stay tuned! 😁
 - Aztec
 
   - [利用 AZTEC 协议进行匿名隐私转账](https://learnblockchain.cn/2019/10/18/aztec)
+- Filecoin
 
 [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)

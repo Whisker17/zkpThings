@@ -131,6 +131,8 @@ Stay tuned! 😁
 
 #### PLONK
 
+> PLONK = **P**ermutations over **L**agrange-bases for **O**ecumenical **N**oninteractive arguments of **K**nowledge
+
 - **理解零知识算法PLONK**
   - [理解零知识算法PLONK（一）—电路](https://mp.weixin.qq.com/s/qr4njTJG89Mj_puIyzMu1w)
   - [理解零知识算法PLONK（二）——协议](https://mp.weixin.qq.com/s/ecCnCH-Fd6_fhKqbzLhoMA)

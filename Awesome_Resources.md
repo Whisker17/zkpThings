@@ -225,6 +225,8 @@ Stay tuned! 😁
 
 #### STARK
 
+> STARK = **S**calability **T**ransparent **AR**guments of **K**nowledge
+
 - **ZKSwap 解读 ZK-STARK**
   - [ZKSwap 团队解读零知识证明算法之 Zk-STARK](https://www.chainnews.com/articles/621681266821.htm)
   - [ZKSwap 团队解读零知识证明算法之 Zk-STARK （二）——Arithmetization](https://www.chainnews.com/articles/247007102433.htm)

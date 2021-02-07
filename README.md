@@ -16,6 +16,8 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 - [**Awesome Resources**](https://github.com/Whisker17/zkpThings/blob/master/Awesome_Resources.md)
 
+  
+
 ------
 
 ### Preliminary knowledge

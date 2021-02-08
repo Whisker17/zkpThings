@@ -15,6 +15,8 @@
   - [**On the Size of Pairing-based Non-interactive Arguments**](https://eprint.iacr.org/2016/260.pdf)
 - **Pinocchio**
   - [**Pinocchio: Nearly Practical Verifiable Computation**](https://eprint.iacr.org/2013/279.pdf)
+- **DIZK**
+  - [**DIZK: A Distributed Zero Knowledge Proof System**](https://eprint.iacr.org/2018/691.pdf)
 
 ### Articles
 
@@ -94,6 +96,7 @@
   - [ZkStudyClub Part 1: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=bz16BURH_u8)
   - [ZkStudyClub Part 2: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=BfV7HBHXfC0)
   - [ZkStudyClub Part 3: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=TbNauD5wgXM)
+- [**The Mathematics behind zkSNARKS**](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
 
 ### Applications
 

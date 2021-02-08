@@ -24,7 +24,7 @@
   - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Range Proof 3](https://www.chainnews.com/articles/522023372101.htm)
 
   - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Arithmetic Circuits](https://www.chainnews.com/articles/574860473072.htm)
-- [**From Zero (Knowledge) to Bulletproofs**](https://joinmarket.me/blog/blog/from-zero-knowledge-proofs-to-bulletproofs-paper/) - a long and very nice gradual explanation
+- [**From Zero (Knowledge) to Bulletproofs**](https://github.com/Whisker17/zkpThings/blob/dev/src/Books/from0k2bp.pdf) - a long and very nice gradual explanation
 
 ### Videoes
 

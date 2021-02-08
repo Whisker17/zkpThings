@@ -9,7 +9,8 @@
 
 ### Papers
 
-- [**Bulletproofs: Short Proofs for Confidential Transactions and More**](https://eprint.iacr.org/2017/1066.pdf)
+- [**Introduction**](https://crypto.stanford.edu/bulletproofs/)
+  - [**Bulletproofs: Short Proofs for Confidential Transactions and More**](https://eprint.iacr.org/2017/1066.pdf)
 - **Halo**
   - [**Recursive Proof Composition without a Trusted Setup**](https://eprint.iacr.org/2019/1021.pdf)
 
@@ -38,4 +39,11 @@
 
   ![](./../Notes/ZKSNARK/pic/68747470733a2f2f646f632e64616c656b2e72732f6173736574732f62756c6c657470726f6f66732d72616e676570726f6f662e706e67.png)
 
-- 
+- [**Suterusu**](https://www.suterusu.io/)
+
+  privacy protection protocol for transactions and data on the blockchain
+
+- [Grin: Simple, privacy-focused, scalable MimbleWimble chain implementation](https://grin.mw/) 
+
+- [Beam: Private and Scalable Coin based on MimbleWimble](https://www.beam.mw/)
+

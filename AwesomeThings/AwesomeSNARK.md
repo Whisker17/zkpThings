@@ -97,7 +97,15 @@
   - [ZkStudyClub Part 2: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=BfV7HBHXfC0)
   - [ZkStudyClub Part 3: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=TbNauD5wgXM)
 - [**The Mathematics behind zkSNARKS**](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
+- **Technion Cyber and Computer Security Summer School**
+  - [Introduction zk SNARKs STARKs by Eli Ben Sasson](https://www.youtube.com/watch?v=VUN35BC11Qw&ab_channel=Technion)
 
 ### Applications
 
 - [Loopring DEX Protocol (v3)](https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md)
+
+- [zkPoD: A Practical Decentralized System for Data Exchange](https://github.com/sec-bit/zkPoD-node)
+  - [technical paper](https://sec-bit.github.io/zkPoD-node/paper.pdf)
+
+- [Gnosis](https://github.com/gnosis)
+  - [technical paper](https://github.com/gnosis/dex-research/blob/master/dFusion/dfusion.v1.pdf)

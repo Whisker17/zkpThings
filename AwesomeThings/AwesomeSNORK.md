@@ -69,3 +69,5 @@
     - [L2 - 深入理解zkSync电路](https://mp.weixin.qq.com/s/lTuKbI2S1tOHeYYNm9A2dQ)
     - [L2 - zkSync服务搭建](https://mp.weixin.qq.com/s/Igkc2dQbjOUYGii1dairpA)
 
+- **Fluidex**
+  - [Github](https://github.com/Fluidex)

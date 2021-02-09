@@ -230,6 +230,10 @@ Stay tuned! 😁
   - [ZKSwap团队深入解读零知识证明算法之Zk-stark：Low Degree Testing](https://learnblockchain.cn/article/2103)
   - [ZKSwap团队深入解读零知识证明算法之Zk-stark——FRI协议](https://learnblockchain.cn/article/2104)
 
+#### Mimblewimble
+
+[paper](https://docs.beam.mw/Mimblewimble.pdf)
+
 #### Applications
 
 - [**ZKSync**]()

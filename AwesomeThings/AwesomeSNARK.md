@@ -108,6 +108,7 @@
   - [great tutorial](https://github.com/christianlundkvist/libsnark-tutorial)
   - Star Li Series
     - [零知识证明 - libsnark源代码分析](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486482&idx=1&sn=407d59e7fc47de0e929c653ce00eb260&chksm=fe131d02c9649414b27a0684ce950b2a63a84ca9c901f81b7251964befd3388e0f616df5bd4b&scene=21#wechat_redirect)
+    - [零知识证明 - 电路及证明示例（libsnark）](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486944&idx=1&sn=afafb5d81ff3317e4b98b669b12f837a&chksm=fe131cf0c96495e6223f41da2ad730e10c52c62c1ac1fc599fdde3b6e77251c5be4bb0e6469e&scene=21#wechat_redirect)
 
 - [bellman (rust)](https://github.com/zkcrypto/bellman/)
 
@@ -127,3 +128,11 @@
 
   - Star Li Series
     - [零知识证明 - ethsnarks源代码导读](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486501&idx=1&sn=60b298472e4df5f149c43518d6c4f212&chksm=fe131d35c9649423f917bd6b90d515a997d865c5e78359e425b4434e501c19c6f0264ebd69f3&scene=21#wechat_redirect)
+
+- [circom and snarkjs tutorial](https://github.com/iden3/circom/blob/master/TUTORIAL.md)
+  - [Roll-up tutorial using Circom and SnarkJS by Ying Tong](https://github.com/therealyingtong/roll_up_circom_tutorial)
+
+- **DIZK**
+  - [Java library for distributed zero knowledge proof systems](https://github.com/scipr-lab/dizk)
+  - Star Li Series
+    - 

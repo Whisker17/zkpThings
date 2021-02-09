@@ -25,7 +25,7 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 - **QAP**
 
-
+- **FFT**
 
 - [**Schnorr**](https://github.com/Whisker17/zkpThings/issues/2)
 

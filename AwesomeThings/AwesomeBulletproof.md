@@ -45,5 +45,4 @@
 
 - [Grin: Simple, privacy-focused, scalable MimbleWimble chain implementation](https://grin.mw/) 
 
-- [Beam: Private and Scalable Coin based on MimbleWimble](https://www.beam.mw/)
 

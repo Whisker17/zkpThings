@@ -20,15 +20,13 @@
 
 ### Articles
 
-- [**zkSNARKs in a Nutshell**](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
-
+- **zkSNARKs in a Nutshell**
+- [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
 - **浅谈零知识证明**
-
-  - [浅谈零知识证明：背景与起源](https://zhuanlan.zhihu.com/p/98077048)
+- [浅谈零知识证明：背景与起源](https://zhuanlan.zhihu.com/p/98077048)
   - [浅谈零知识证明之二：简短无交互证明（SNARK）](https://zhuanlan.zhihu.com/p/150246147)
   - [浅谈零知识证明之三：zkSNARK证明体系的实现](https://zhuanlan.zhihu.com/p/150752963)
   - [浅谈零知识证明之四：zkSNARK证明体系的实现（下）](https://zhuanlan.zhihu.com/p/159003974)
-  
 - **从零开始学习 zk-SNARK**
 
   - [从零开始学习 zk-SNARK（一）——多项式的性质与证明](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484148&idx=1&sn=7cc0f42d16cdc9dd3ec9aced08b68ee8&chksm=9780aa38a0f7232e5ed8f939f4ef2dd9a6fa8be0514adb552ca0139cbe4815bc2d3804ca70cf&scene=21#wechat_redirect)
@@ -36,14 +34,12 @@
   - [从零开始学习 zk-SNARK（三）——从程序到多项式的构造](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484357&idx=1&sn=c07ab2eab9fc81122f4788418eba2af1&chksm=9780ab09a0f7221f0eb5049da5056bdbe9702a6fc03e3d053ad18ea60e9d75c2037ad545e1a0&scene=21#wechat_redirect)
   - [从零开始学习 zk-SNARK（四）——多项式的约束](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484591&idx=1&sn=f93a4197ebea256a2d4b428aa0440b71&chksm=9780ac63a0f72575ddb8cad0db4844e441ab17aee870c9f32c4f7716f4297b90b4750784cab7&scene=21#wechat_redirect)
   - [从零开始学习 zk-SNARK（五）—— Pinocchio 协议](https://mp.weixin.qq.com/s?__biz=MzIxNjkwODE5NQ==&mid=2247484672&idx=1&sn=a41bc8436703e8e2bab9ad16634956e5&chksm=9780adcca0f724dadb06f670a9b783c6d50426354e408b3b7a7d7f5d21dddc061c7cc9aa19ac&scene=126&sessionid=1582877142&key=8acab5498f5cdd67ccdcd60cacf7129275858b33cf051cb3d67903d157d9350a31006558d408e9ffe0a1da53f002b6cb74a1b7508974921c75e2814d68a474b1ba4ee891ad6afe73cb35216da65831a8&ascene=1&uin=MjkxMDEwNDIxNg%3D%3D&devicetype=Windows+10&version=6208006f&lang=zh_CN&exportkey=AWgf%2Bf10pjTA0YsptVykVCg%3D&pass_ticket=eANWZ1i%2FBVe2hlVxaFZlGG9Ldcz1txhiBosrZnI%2FCCsXSH3S0fEMOZdkQFdlShrQ)
-  
 - **零知识证明引论**
 
   - [零知识证明引论（一）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247488922&idx=1&sn=a57b852193bfabf709d1db2989223dcc&chksm=fe4a7483c93dfd9591f3382bb3ea5cf00ae93117823c1fa5485aee4bf1c4b638adacb61a35c2&scene=178&cur_album_id=1594821581158055936#rd)
 
   - [零知识证明引论（二）](https://mp.weixin.qq.com/s?__biz=MzU5Nzk4MTMwMg==&mid=2247490390&idx=1&sn=b700e3bdf0d821871fd9e583cdc8b910&chksm=fe4a7a4fc93df3598498892a67243594eedd64be28c3dab8412f56c0d83d3fc481c73b17f70f&scene=178&cur_album_id=1594821581158055936#rd)
   - [零知识证明引论（三）](https://mp.weixin.qq.com/s/VM7BTUix54NrGrcSKad2-Q)
-
 - **隐私计算笔谈-零知识证明系列专题**
 
   - [零知识证明系列专题（一）：零知识证明与重置模拟](https://mp.weixin.qq.com/s?__biz=MzU0ODg1NDc1MQ==&mid=2247489786&idx=1&sn=338b316c0368410379c46318cd60ea92&chksm=fbb9964accce1f5c573f3b7cd3fe220da1b9723d0e112a308ed686da1c932f065c0c786cd792&scene=21#wechat_redirect)
@@ -53,7 +49,6 @@
   - [零知识证明系列专题（五）：用QSPs构造zk-SNARK](https://mp.weixin.qq.com/s/ksTFqX99zQDS0ECn7AqDQw)
   
   - [零知识证明系列专题（六）：从QSP到QAP](https://mp.weixin.qq.com/s/kXXdvNhRvsdLpv1UUIACQw)
-  
 - **Star Li 对 Groth16 的相关解析**
 
   - [零知识证明 - Groth16算法介绍](https://mp.weixin.qq.com/s/SguBb5vyAm2Vzht7WKgzug)
@@ -61,7 +56,6 @@
   - [零知识证明 - Groth16计算详解](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486744&idx=1&sn=26425829ffedf25e9cf2652eb2dd24cd&chksm=fe131c08c964951ee9ce7204425b0f38a15a87e09da9fa44219ca3b53f2572dffe34904f8b60&scene=178&cur_album_id=1458661849167511555#rd)
 
   - [零知识证明 - 有关Groth16的zk证明的理解](https://mp.weixin.qq.com/s/x1ggw3VplXAIeL87D5bUfw)
-
 - **ZCash Explain Series**
 
   - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
@@ -71,12 +65,10 @@
   - [From Computations to Polynomials](https://z.cash/blog/snark-explain5)
   - [The Pinocchio Protocol](https://z.cash/blog/snark-explain6)
   - [Pairings of Elliptic Curves](https://z.cash/blog/snark-explain7)
-  
 - **Vitalik Buterin's blog series on SNARK**
   - [Quadratic Arithmetic Programs: from Zero to Hero](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
   - [Exploring Elliptic Curve Pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)
   - [Zk-SNARKs: Under the Hood](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
-  
 - **Dark Forest Series**
 
   - [Zero-Knowledge Proofs for Engineers: Introduction](https://blog.zkga.me/intro-to-zksnarks)
@@ -96,7 +88,8 @@
   - [ZkStudyClub Part 1: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=bz16BURH_u8)
   - [ZkStudyClub Part 2: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=BfV7HBHXfC0)
   - [ZkStudyClub Part 3: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=TbNauD5wgXM)
-- [**The Mathematics behind zkSNARKS**](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
+- **The Mathematics behind zkSNARKS**
+  - [The Mathematics behind zkSNARKS](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
 - **Technion Cyber and Computer Security Summer School**
   - [Introduction zk SNARKs STARKs by Eli Ben Sasson](https://www.youtube.com/watch?v=VUN35BC11Qw&ab_channel=Technion)
 
@@ -109,3 +102,28 @@
 
 - [Gnosis](https://github.com/gnosis)
   - [technical paper](https://github.com/gnosis/dex-research/blob/master/dFusion/dfusion.v1.pdf)
+
+- [libsnark (C++)](https://github.com/scipr-lab/libsnark)
+
+  - [great tutorial](https://github.com/christianlundkvist/libsnark-tutorial)
+  - Star Li Series
+    - [零知识证明 - libsnark源代码分析](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486482&idx=1&sn=407d59e7fc47de0e929c653ce00eb260&chksm=fe131d02c9649414b27a0684ce950b2a63a84ca9c901f81b7251964befd3388e0f616df5bd4b&scene=21#wechat_redirect)
+
+- [bellman (rust)](https://github.com/zkcrypto/bellman/)
+
+  - [demo circuit](https://github.com/ebfull/bellman-demo)
+
+  - Star Li Series
+    - [零知识证明 - bellman源码分析](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486293&idx=1&sn=f742b0df7f65384d9812a2b4c5ced561&chksm=fe131a45c9649353cce6b2de9fa63322f97f384ca6da2bce79f97afa6d8b8c193a76575cc1e8&scene=21#wechat_redirect)
+
+- [zokrates (toolbox for zkSNARKs on Ethereum)](https://github.com/Zokrates/ZoKrates)
+
+  - [ZoKrates Remix plugin tutorial](https://medium.com/coinmonks/zokrates-zksnarks-on-ethereum-made-easy-8022300f8ba6)
+  - [Zero Knowledge Proof Application Demo, with libsnarks, truffle and docker](https://medium.com/hackernoon/zero-knowledge-proof-application-demo-2a457cfc73c1)
+  - Star Li Series
+    - [零知识证明 - 深入理解ZoKrates](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486383&idx=1&sn=4b11dcdc3451809e9fffad517b7435d2&chksm=fe131abfc96493a9a14d452e64cd23d6343c6de9515c6108d061c817b703c8b1aa8760c81bd7&scene=21#wechat_redirect)
+
+- [ethsnarks by HarryR (alternative toolkit for viable zk-SNARKS on Ethereum, Web, Mobile and Desktop)](https://github.com/HarryR/ethsnarks)
+
+  - Star Li Series
+    - [零知识证明 - ethsnarks源代码导读](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486501&idx=1&sn=60b298472e4df5f149c43518d6c4f212&chksm=fe131d35c9649423f917bd6b90d515a997d865c5e78359e425b4434e501c19c6f0264ebd69f3&scene=21#wechat_redirect)

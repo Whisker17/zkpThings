@@ -21,8 +21,6 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 - [**KEA**](./src/KEA.md)
 
-  确保在通信时另一方使用的本方提供的数据
-
 - **QAP**
 
   - [Quadratic Arithmetic Programs](https://www.di.ens.fr/~nitulesc/files/slides/QAP.pdf)
@@ -36,4 +34,4 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 - **CRS**
 
 - **Fiat–Shamir heuristic**
-  将交互式系统转化为非交互式系统
+  

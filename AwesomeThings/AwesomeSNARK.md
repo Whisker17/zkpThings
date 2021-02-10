@@ -32,6 +32,7 @@
 
   - [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
 - **zk-SNARK explained: Basic Principles**
+  
   - [zk-SNARK explained: Basic Principles](https://blog.coinfabrik.com/wp-content/uploads/2018/12/zkSNARKexplained.pdf)
 - **浅谈零知识证明**
 
@@ -70,7 +71,9 @@
 
   - [零知识证明 - 有关Groth16的zk证明的理解](https://mp.weixin.qq.com/s/x1ggw3VplXAIeL87D5bUfw)
 - **ZCash Explain Series**
-- [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+
+  - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
   - [The Knowledge of Coefficient Test and Assumption](https://z.cash/blog/snark-explain3)
   - [How to make Blind Evaluation of Polynomials Verifiable](https://z.cash/blog/snark-explain4)
@@ -119,7 +122,8 @@
   - [The Mathematics behind zkSNARKS](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
 - **Technion Cyber and Computer Security Summer School**
   - [Introduction zk SNARKs STARKs by Eli Ben Sasson](https://www.youtube.com/watch?v=VUN35BC11Qw&ab_channel=Technion)
-- [Rise of the SNARKs with Howard Wu](https://www.youtube.com/watch?v=Hig_1ZFbWRM&ab_channel=ZeroKnowledge)
+- **#ZK0x01**
+  - [Rise of the SNARKs with Howard Wu](https://www.youtube.com/watch?v=Hig_1ZFbWRM&ab_channel=ZeroKnowledge)
 
 ### Applications
 

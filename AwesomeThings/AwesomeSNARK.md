@@ -11,10 +11,18 @@
 
 ### Papers
 
+- [Succinct ZK (K92)](https://people.csail.mit.edu/vinodv/6892-Fall2013/efficientargs.pdf)
+- [Succinct Non-Interactive ZK (M94)](https://projecteuclid.org/download/pdf_1/euclid.lnl/1235415908)
+- [“SNARK” terminology and characterization of existence (BCCT11)](https://eprint.iacr.org/2011/443)
+- [Succinct NIZK without the PCP Theorem (Groth10)](http://www0.cs.ucl.ac.uk/staff/J.Groth/ShortNIZK.pdf)
+- [**Succinct NIZK without PCP Theorem & Quasi-linear prover time (GGPR13)**](https://eprint.iacr.org/2012/215)
+  - [**Pinocchio (PGHR13)**](https://eprint.iacr.org/2013/279.pdf)
+  - [Geppetto (CFHKKNPZ14)](https://eprint.iacr.org/2014/976)
+  - [BCTV14a](https://eprint.iacr.org/2013/879)
+  - [GM17](https://eprint.iacr.org/2017/540.pdf)
+
 - **Groth16**
   - [**On the Size of Pairing-based Non-interactive Arguments**](https://eprint.iacr.org/2016/260.pdf)
-- **Pinocchio**
-  - [**Pinocchio: Nearly Practical Verifiable Computation**](https://eprint.iacr.org/2013/279.pdf)
 - **DIZK**
   - [**DIZK: A Distributed Zero Knowledge Proof System**](https://eprint.iacr.org/2018/691.pdf)
 
@@ -23,6 +31,8 @@
 - **zkSNARKs in a Nutshell**
 
   - [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
+- **zk-SNARK explained: Basic Principles**
+  - [zk-SNARK explained: Basic Principles](https://blog.coinfabrik.com/wp-content/uploads/2018/12/zkSNARKexplained.pdf)
 - **浅谈零知识证明**
 
   - [浅谈零知识证明：背景与起源](https://zhuanlan.zhihu.com/p/98077048)
@@ -60,8 +70,7 @@
 
   - [零知识证明 - 有关Groth16的zk证明的理解](https://mp.weixin.qq.com/s/x1ggw3VplXAIeL87D5bUfw)
 - **ZCash Explain Series**
-
-  - [Homomorphic Hiding](https://z.cash/blog/snark-explain)
+- [Homomorphic Hiding](https://z.cash/blog/snark-explain)
   - [Blind Evaluation of Polynomials](https://z.cash/blog/snark-explain2)
   - [The Knowledge of Coefficient Test and Assumption](https://z.cash/blog/snark-explain3)
   - [How to make Blind Evaluation of Polynomials Verifiable](https://z.cash/blog/snark-explain4)
@@ -76,6 +85,21 @@
 
   - [Zero-Knowledge Proofs for Engineers: Introduction](https://blog.zkga.me/intro-to-zksnarks)
   - [ZKPs for Engineers: A look at the Dark Forest ZKPs](https://blog.zkga.me/df-init-circuit)
+- **第九届BIU密码学冬令营**
+
+  - [Alon Rosen: Introduction to Zero Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494043&idx=1&sn=0b31475c88222aca181633953c88dc99&chksm=facc539dcdbbda8b897784779af5cc57a92c7bbc834d795c9f0ba5f84dc9e3c2fe85f0881802&scene=21#wechat_redirect)
+  - [Alon Rosen: Zero Knowledge for All NP](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494091&idx=1&sn=01d79903f502a6ef3aef521abfc46d1c&chksm=facc53cdcdbbdadbd33e15334a96925f231a0c5ec9d5395ee0342684ae2afb9b40493055086d&scene=21#wechat_redirect) 
+  - [Yehuda Lindell: Proofs of Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494131&idx=1&sn=747f7137e8d0303c340c7d98680242c7&chksm=facc53f5cdbbdae3f8dd216b701b0d3ec9104476709c451dbf5ee16c527f983128a50372a74a&scene=21#wechat_redirect) 
+  - [Alon Rosen: Constant-Round CZK Proofs for NP](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494162&idx=1&sn=66604cd7f3ec72860b2565c24e317a40&chksm=facc5014cdbbd9026b91bf186859e97530786b0c173749a73fd0292f37ffc59870e4be5a7cb2&scene=21#wechat_redirect)
+  - [Alon Rosen: Witness Indistinguishability and Constant-Round Arguments](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494224&idx=1&sn=90e766fe4b20f8e67131d2e15a9498bc&chksm=facc5056cdbbd940bdce9c9591b7b773e66d28640e7bee82688367a1f04a37b77ea35aaf44fb&scene=21#wechat_redirect)
+  - [Ron Rothblum: Non-Interactive Zero-Knowledge](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494281&idx=1&sn=e2ddcff1b16569cb8d99d0bdacc5249f&chksm=facc508fcdbbd999dfc229d6c4c967a24ee4e95a8c9f97c264402bb2504a1d90deba27c59618&scene=21#wechat_redirect)
+  - [Ron Rothblum: The Fiat-Shamir Transform](https://mp.weixin.qq.com/s?__biz=MzUzOTAxMjk2OQ==&mid=2247494320&idx=1&sn=83c1c90b04b5b0fdf6f55a26ee4a8631&chksm=facc50b6cdbbd9a0507536827d59bf7ea27c9fda4c99894deada0779875c5447a29188e2ef96&scene=21#wechat_redirect) 
+  - [Alon Rosen: Lower Bounds and Limitations on Zero Knowledge](https://mp.weixin.qq.com/s/8PRus-sYqWrlysPh1xX1mQ)
+  - [Non Black-Box Zero Knowledge (Barak’s Protocol)](https://mp.weixin.qq.com/s/eHYd2ZK06TFV5U8iO6ffIQ)
+  - [Fiat-Shamir: from Practice to Theory](https://mp.weixin.qq.com/s/CfHWL_IqSn7cj60qqS-HiQ)
+  - [Sigma Protocols](https://mp.weixin.qq.com/s/gfOTE3XC7UR1ZBmbrgVMzg)
+  - [Compilers for Zero-Knowledge: An Overview](https://mp.weixin.qq.com/s/_hWgqTm3eywHoV5HIVmhZQ)
+  - [Zero-Knowledge from MPC-in-the-Head](https://mp.weixin.qq.com/s/3WbiZcO3t-HaXtmVv_ItfA)
 
 ### Videoes
 
@@ -95,6 +119,7 @@
   - [The Mathematics behind zkSNARKS](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
 - **Technion Cyber and Computer Security Summer School**
   - [Introduction zk SNARKs STARKs by Eli Ben Sasson](https://www.youtube.com/watch?v=VUN35BC11Qw&ab_channel=Technion)
+- [Rise of the SNARKs with Howard Wu](https://www.youtube.com/watch?v=Hig_1ZFbWRM&ab_channel=ZeroKnowledge)
 
 ### Applications
 
@@ -136,7 +161,7 @@
 
 - [**Circom**](https://github.com/iden3/circom)
   
-- [circom and snarkjs tutorial](https://github.com/iden3/circom/blob/master/TUTORIAL.md)
+  - [circom and snarkjs tutorial](https://github.com/iden3/circom/blob/master/TUTORIAL.md)
   
   - [Roll-up tutorial using Circom and SnarkJS by Ying Tong](https://github.com/therealyingtong/roll_up_circom_tutorial)
   
@@ -145,4 +170,5 @@
   - Star Li Series
     - [零知识证明 - DIZK介绍](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486889&idx=1&sn=c924a84b8d553ef30218299d236ff815&chksm=fe131cb9c96495afd97284a121fa7c78e43efc4d624d37ed5cb78d74e2a51c3f91336e2029ef&scene=21#wechat_redirect)
     - [零知识证明 - DIZK源代码导读](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486906&idx=1&sn=de778eea6bf4b2781cad42df54d5b72c&chksm=fe131caac96495bc31a71186ca0cd36defffc43c92ee0d87e96d204558cfa86cb8f26887ca4e&scene=21#wechat_redirect)
-    - 
+    
+      

@@ -63,15 +63,22 @@
 ### Applications
 
 - [barryWhiteHat](https://github.com/barryWhiteHat)/**[plonk_tutorial](https://github.com/barryWhiteHat/plonk_tutorial)**
-  - [plonk_tutorial](https://github.com/barryWhiteHat/plonk_tutorial/blob/master/plonk.ipynb)
+  
+- [plonk_tutorial](https://github.com/barryWhiteHat/plonk_tutorial/blob/master/plonk.ipynb)
+  
+- Aztec Protocol
+  
+  >  **A**nonymous **Z**ero-knowledge **T**ransactions with **E**fficient **C**ommunication
 
-- AztecProtocol
   - [Setup](https://github.com/AztecProtocol/Setup)
   - [ignition-verification](https://github.com/AztecProtocol/ignition-verification)
-
+  - [Confidential transactions have arrived, a dive into the AZTEC Protocol](https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009)
+  - [利用 AZTEC 协议进行匿名隐私转账](https://learnblockchain.cn/2019/10/18/aztec)
+  
 - Matterlabs
-  - [plonk](https://github.com/matter-labs/bellman/tree/plonk_release/src/plonk)
-
+  
+- [plonk](https://github.com/matter-labs/bellman/tree/plonk_release/src/plonk)
+  
 - [dusk-network](https://github.com/dusk-network)/**[plonk](https://github.com/dusk-network/plonk)**
   - [Zero-Knowledge: PLONK Demo - Dusk](https://dusk.network/news/zero-knowledge-plonk-demo)
   - [Zero-Knowledge: PLONK Demo 2 - Dusk](https://dusk.network/news/zero-knowledge-plonk-demo-2)

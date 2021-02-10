@@ -52,7 +52,6 @@ STARKs are SNARKs without Trusted Setup.
 - **STARK – Zero-Knowledge Proof Protocol by Starkware**
   - [slides](https://drive.google.com/file/d/1Osa0MXu-04dfwn1YOSgN6CXOgWnsp-Tu/view)
   - [video](https://www.youtube.com/watch?v=1KSwVIZ82hs&ab_channel=Web3Foundation)
-- 
 
 ### Applications
 
@@ -62,4 +61,5 @@ STARKs are SNARKs without Trusted Setup.
 
 - **Sonic**
   - [Sonic MPC implementation by Matter Labs](https://github.com/matter-labs/alpha_line)
+  - [ebfull](https://github.com/ebfull)/**[sonic](https://github.com/ebfull/sonic)**
 

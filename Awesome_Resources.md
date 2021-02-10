@@ -102,7 +102,9 @@ Stay tuned! 😁
 
 - [**Zero Knowledge Podcasts**](https://www.zeroknowledge.fm/)
 
-#### Videos
+#### Forums
+
+- [PLONK Café](https://www.plonk.cafe/)
 
 
 #### WeChat Official Accounts

@@ -25,6 +25,8 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 - **QAP**
 
+  - [Quadratic Arithmetic Programs](https://www.di.ens.fr/~nitulesc/files/slides/QAP.pdf)
+
 - **FFT**
 
 - [**Schnorr**](https://github.com/Whisker17/zkpThings/issues/2)

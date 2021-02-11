@@ -97,6 +97,8 @@ Stay tuned! 😁
 
 **Comparison of the most popular zkp systems**
 
+![image-20210211132354449](./Notes/ZKSNARK/pic/image-20210211132354449.png)
+
 |                                       | SNARKs                     | STARKs                       | Bulletproofs   |
 | ------------------------------------- | -------------------------- | ---------------------------- | -------------- |
 | Algorithmic complexity: prover        | O(N * log(N))              | O(N * poly-log(N))           | O(N * log(N))  |

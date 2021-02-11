@@ -17,6 +17,12 @@
 
 ### Articles
 
+- **Secbit的理解零知识证明算法Bulletproofs系列**
+  - [理解零知识证明算法Bulletproofs（一）：Range Proof](https://mp.weixin.qq.com/s?__biz=MzUxNTgyNDk5NQ==&mid=2247484511&idx=1&sn=19bf2bae846cd1f7e0f24237d0596dd9&chksm=f9b18853cec60145cfc26f296d1f745a1ffb0b7b9bbd465215a4b795d4d76b1a77048b8ee678&scene=21#wechat_redirect)
+  - [理解零知识证明算法Bulletproofs（二）：Improved Range Proof](https://mp.weixin.qq.com/s?__biz=MzUxNTgyNDk5NQ==&mid=2247484707&idx=1&sn=5ff34b86d4144235950b8509b43e8d9b&chksm=f9b1892fcec600393d60e8447a76fe354c5e718cbca00440163fe820d15f57e764f244b7604d&scene=21#wechat_redirect)
+  - [理解零知识证明算法Bulletproofs（三）：Range Proof 实现分析](https://mp.weixin.qq.com/s?__biz=MzUxNTgyNDk5NQ==&mid=2247484795&idx=2&sn=fd8458a0c682c9d0d7d00033f5aabc78&chksm=f9b18977cec60061d89ab48ba6134e6ef26f3787c1d0ddb4749966d2522f516915574d9adeea&scene=21#wechat_redirect)
+  - [理解零知识证明算法Bulletproofs（四）：Arithmetic Circuits](https://mp.weixin.qq.com/s?__biz=MzUxNTgyNDk5NQ==&mid=2247484803&idx=1&sn=4cfc35b72962cb91f9fc22cc60260ea8&chksm=f9b1898fcec60099b477914095918c85a261be80593ae7b185f000fff20086e59a822cc685a7&scene=21#wechat_redirect)
+
 - **ZKSwap 解读 Bulletproofs**
 
   - [ZKSwap 团队解读零知识证明算法之 Bulletproofs：Range Proof 1](https://www.chainnews.com/articles/906346355088.htm)

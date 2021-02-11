@@ -131,11 +131,11 @@
 
 - [zkPoD: A Practical Decentralized System for Data Exchange](https://github.com/sec-bit/zkPoD-node)
   
-- [technical paper](https://sec-bit.github.io/zkPoD-node/paper.pdf)
+  - [technical paper](https://sec-bit.github.io/zkPoD-node/paper.pdf)
   
 - [Gnosis](https://github.com/gnosis)
   
-- [technical paper](https://github.com/gnosis/dex-research/blob/master/dFusion/dfusion.v1.pdf)
+  - [technical paper](https://github.com/gnosis/dex-research/blob/master/dFusion/dfusion.v1.pdf)
   
 - [libsnark (C++)](https://github.com/scipr-lab/libsnark)
 

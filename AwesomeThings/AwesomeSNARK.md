@@ -102,6 +102,8 @@
   - [Sigma Protocols](https://mp.weixin.qq.com/s/gfOTE3XC7UR1ZBmbrgVMzg)
   - [Compilers for Zero-Knowledge: An Overview](https://mp.weixin.qq.com/s/_hWgqTm3eywHoV5HIVmhZQ)
   - [Zero-Knowledge from MPC-in-the-Head](https://mp.weixin.qq.com/s/3WbiZcO3t-HaXtmVv_ItfA)
+- **A Cambrian Explosion of Crypto Proofs**
+  - [A Cambrian Explosion of Crypto Proofs](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
 
 ### Videoes
 

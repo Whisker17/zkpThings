@@ -6,6 +6,17 @@
 - [**QAP**](#QAP)
 - [**zk-SNARKs**](#zk-SNARKs)
 
+### Simulation And Extractor
+
+- **Secbit 探索零知识证明**
+  - [探索零知识证明系列一：初识「零知识」与「证明」](https://sec-bit.github.io/blog/2019/07/31/zero-knowledge-and-proof/)
+  - [探索零知识证明系列二：从「模拟」理解零知识证明：平行宇宙与时光倒流](https://sec-bit.github.io/blog/2019/08/06/understand-zero-knowledge-proof-by-simulator/)
+  - [探索零知识证明系列三：读心术：从零知识证明中提取「知识」](https://sec-bit.github.io/blog/2019/08/28/extractor-and-proof-of-knowledge/)
+  - [探索零知识证明系列四：亚瑟王的「随机」挑战：从交互到非交互式零知识证明](https://sec-bit.github.io/blog/2019/11/01/from-interactive-zkp-to-non-interactive-zkp/)
+- **How To Simulate It – A Tutorial on the Simulation Proof Technique**
+  - [How To Simulate It – A Tutorial on the Simulation Proof Technique](https://eprint.iacr.org/2016/046.pdf)
+- 
+
 ### Introduction
 
 ### QAP
@@ -46,8 +57,12 @@
 
   视频教程，由浅至深的介绍了 ZKP ，后面还有实战代码部分
   
+- 
+
+- 
+
+- 
+
   
-  
-  
+
   [**Back**](https://github.com/Whisker17/zkpThings/blob/master/README.md)
-  

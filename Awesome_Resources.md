@@ -52,6 +52,7 @@ Stay tuned! 😁
 #### Books
 
 - [**Proofs, Arguments, and Zero-Knowledge**](http://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
+- [**ZKProof Community Reference**](https://docs.zkproof.org/reference.pdf)
 
 #### Collection of resources
 
@@ -61,6 +62,7 @@ Stay tuned! 😁
 - [**zkp.science**](https://zkp.science/)
 - [**Zero-Knowledge Proofs Starter Pack**](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
 - [**Awesome PLONK**](https://github.com/Fluidex/awesome-plonk)
+- [**zkproof**](https://zkproof.org/)
 
 ### Social
 
@@ -70,6 +72,7 @@ Stay tuned! 😁
 - [MatterLabs](https://medium.com/matter-labs)
 - [mutourend](https://blog.csdn.net/mutourend)
 - [coders errand](https://coders-errand.com/category/cryptography/)
+- [Bentham’s Gaze](https://www.benthamsgaze.org/)
 
 #### Podcasts
 
@@ -97,7 +100,7 @@ Stay tuned! 😁
 
 **Comparison of the most popular zkp systems**
 
-![image-20210211132354449](./Notes/ZKSNARK/pic/image-20210211132354449.png)
+![image-20210211132354449](C:\src\github.com\Whisker17\zkpThings\Notes\ZKSNARK\pic\image-20210211132354449.png)
 
 |                                       | SNARKs                     | STARKs                       | Bulletproofs   |
 | ------------------------------------- | -------------------------- | ---------------------------- | -------------- |

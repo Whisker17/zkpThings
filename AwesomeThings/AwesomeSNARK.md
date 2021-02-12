@@ -29,8 +29,7 @@
 ### Articles
 
 - **zkSNARKs in a Nutshell**
-
-  - [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
+- [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
 - **zk-SNARK explained: Basic Principles**
   
   - [zk-SNARK explained: Basic Principles](https://blog.coinfabrik.com/wp-content/uploads/2018/12/zkSNARKexplained.pdf)
@@ -158,7 +157,9 @@
   - Star Li Series
     - [零知识证明 - 深入理解ZoKrates](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486383&idx=1&sn=4b11dcdc3451809e9fffad517b7435d2&chksm=fe131abfc96493a9a14d452e64cd23d6343c6de9515c6108d061c817b703c8b1aa8760c81bd7&scene=21#wechat_redirect)
 
-- [ethsnarks by HarryR (alternative toolkit for viable zk-SNARKS on Ethereum, Web, Mobile and Desktop)](https://github.com/HarryR/ethsnarks)
+- ethsnarks
+
+  - [alternative toolkit for viable zk-SNARKS on Ethereum, Web, Mobile and Desktop](https://github.com/HarryR/ethsnarks)
 
   - Star Li Series
     - [零知识证明 - ethsnarks源代码导读](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486501&idx=1&sn=60b298472e4df5f149c43518d6c4f212&chksm=fe131d35c9649423f917bd6b90d515a997d865c5e78359e425b4434e501c19c6f0264ebd69f3&scene=21#wechat_redirect)

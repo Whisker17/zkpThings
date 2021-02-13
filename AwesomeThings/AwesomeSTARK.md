@@ -52,6 +52,10 @@ STARKs are SNARKs without Trusted Setup.
 - **STARK – Zero-Knowledge Proof Protocol by Starkware**
   - [slides](https://drive.google.com/file/d/1Osa0MXu-04dfwn1YOSgN6CXOgWnsp-Tu/view)
   - [video](https://www.youtube.com/watch?v=1KSwVIZ82hs&ab_channel=Web3Foundation)
+- **ZK Study Club: Polynomial Commitments with Justin Drakes**
+  - [ZkStudyClub Part 1: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=bz16BURH_u8) ([Slides](https://www.youtube.com/watch?v=bz16BURH_u8&ab_channel=ZeroKnowledge))
+  - [ZkStudyClub Part 2: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=BfV7HBHXfC0)
+  - [ZkStudyClub Part 3: Polynomial Commitments with Justin Drake](https://www.youtube.com/watch?v=TbNauD5wgXM)
 
 ### Applications
 

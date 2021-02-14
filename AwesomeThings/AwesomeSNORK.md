@@ -29,7 +29,7 @@
   
 - **PLONK**
   - [Understanding PLONK by Vitalik Buterin](https://vitalik.ca/general/2019/09/22/plonk.html)
-  - AZTEC Ignition
+  - **AZTEC Ignition**
     - [Ignition: Trusted Setup MPC Ceremony for PLONK](https://medium.com/aztec-protocol/aztec-announcing-our-ignition-ceremony-757850264cfe)
       - [How the Ceremony Works - Basic](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-5c23a54e2dd9)
       - [How the Ceremony Works - Advanced](https://medium.com/aztec-protocol/aztec-how-the-ceremony-works-9f021cf190d0)
@@ -72,6 +72,7 @@
 - [Into the deep end: making sense of PLONK](https://www.youtube.com/watch?v=ty-LZf0YCK0&feature=youtu.be&ab_channel=ZeroKnowledge)
 - [plookup: Speeding up the PLONK prover](https://www.youtube.com/watch?v=Vdlc1CmRYRY&feature=youtu.be&ab_channel=ZeroKnowledge)
 - [Zero Knowledge Episode 112: Dive into Plonk!](https://www.zeroknowledge.fm/112) （Podcast）
+- [白皮书解读：零知识证明 Plonk](https://www.bilibili.com/video/BV1io4y197Gy)
 
 ### Applications
 

@@ -41,12 +41,6 @@
 
     - [理解零知识算法PLONK（二）——协议](https://mp.weixin.qq.com/s/ecCnCH-Fd6_fhKqbzLhoMA)
 
-  - **零知识证明项目Plonk代码初探**
-
-    - [零知识证明项目Plonk代码初探](https://mp.weixin.qq.com/s/rEZxeJlB45VYr4b6l1Ngxw)
-
-    - [plonk代码导读--门电路build](https://mp.weixin.qq.com/s/ts2j8UrU7RPAZiU4F_LFuQ)
-
   - **Star Li 的 PlonK 系列**
     - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
     - [零知识证明 - PLONK电路原理](https://mp.weixin.qq.com/s/D9q5-ubGVCf_TK5fQdD9qQ)
@@ -73,6 +67,20 @@
 - [plookup: Speeding up the PLONK prover](https://www.youtube.com/watch?v=Vdlc1CmRYRY&feature=youtu.be&ab_channel=ZeroKnowledge)
 - [Zero Knowledge Episode 112: Dive into Plonk!](https://www.zeroknowledge.fm/112) （Podcast）
 - [白皮书解读：零知识证明 Plonk](https://www.bilibili.com/video/BV1io4y197Gy)
+- **零知识证明项目Plonk代码初探**
+
+  - [零知识证明项目Plonk代码初探](https://mp.weixin.qq.com/s/rEZxeJlB45VYr4b6l1Ngxw)
+  - [plonk代码导读--门电路build](https://mp.weixin.qq.com/s/ts2j8UrU7RPAZiU4F_LFuQ)
+  - [零知识证明plonk代码导读3--Preprocess](https://mp.weixin.qq.com/s/eTWsKDueJrVEFqwNOg6j0w)
+  - [零知识证明plonk代码导读4--Circuit预处理](https://mp.weixin.qq.com/s/3XEQ6nFa2vsXkOumICkqzw)
+- **零知识项目plonk**
+  - [零知识项目plonk-基础算法概述](https://mp.weixin.qq.com/s/Al71QxRX97ElpDdlSGipSg)
+  - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://mp.weixin.qq.com/s/DOfsU1eagQFNMc6TTY-bsg)
+  - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
+  - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
+  - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
+  - [零知识证明plonk算法解析6--递归证明](https://mp.weixin.qq.com/s/jc9gkc3thxga__oOf4SdMg)
+  - 
 
 ### Applications
 

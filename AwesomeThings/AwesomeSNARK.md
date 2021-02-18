@@ -29,7 +29,7 @@
 ### Articles
 
 - **zkSNARKs in a Nutshell**
-- [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
+  - [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
 - **zk-SNARK explained: Basic Principles**
   
   - [zk-SNARK explained: Basic Principles](https://blog.coinfabrik.com/wp-content/uploads/2018/12/zkSNARKexplained.pdf)
@@ -104,6 +104,9 @@
   - [Zero-Knowledge from MPC-in-the-Head](https://mp.weixin.qq.com/s/3WbiZcO3t-HaXtmVv_ItfA)
 - **A Cambrian Explosion of Crypto Proofs**
   - [A Cambrian Explosion of Crypto Proofs](https://nakamoto.com/cambrian-explosion-of-crypto-proofs/)
+- **Security Risks in Zero Knowledge Proof Cryptocurrencies**
+  - [Security Risks in Zero Knowledge Proof Cryptocurrencies](https://blogs.360.cn/post/Security-Risks-in-Zero-Knowledge-Proof-Cryptocurrencies.html)
+  - [区块链应用中的风险](https://mp.weixin.qq.com/s/9BHeJxq_3YuYfGT-MHjGmQ)
 
 ### Videoes
 
@@ -136,7 +139,9 @@
   
 - [libsnark (C++)](https://github.com/scipr-lab/libsnark)
 
-  - [great tutorial](https://github.com/christianlundkvist/libsnark-tutorial)
+  - [christianlundkvist](https://github.com/christianlundkvist)/**[libsnark-tutorial](https://github.com/christianlundkvist/libsnark-tutorial)**
+  - [howardwu](https://github.com/howardwu)/**[libsnark-tutorial](https://github.com/howardwu/libsnark-tutorial)**
+  - [Introduction to zk-SNARKs with Examples](https://media.consensys.net/introduction-to-zksnarks-with-examples-3283b554fc3b)
   - Star Li Series
     - [零知识证明 - libsnark源代码分析](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486482&idx=1&sn=407d59e7fc47de0e929c653ce00eb260&chksm=fe131d02c9649414b27a0684ce950b2a63a84ca9c901f81b7251964befd3388e0f616df5bd4b&scene=21#wechat_redirect)
     - [零知识证明 - 电路及证明示例（libsnark）](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486944&idx=1&sn=afafb5d81ff3317e4b98b669b12f837a&chksm=fe131cf0c96495e6223f41da2ad730e10c52c62c1ac1fc599fdde3b6e77251c5be4bb0e6469e&scene=21#wechat_redirect)

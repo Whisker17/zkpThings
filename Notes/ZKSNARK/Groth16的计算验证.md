@@ -61,6 +61,16 @@
 
   ![image-20210218105124216](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210218105125.png)
 
+- **Simulation 的意义**
+
+  ![image-20210218111720734](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210218111722.png)
+
+  在Setup过程中，为关系R生成simulation的trapdoor。Prove和Vfy比较简单，就是生成和验证证明。Sim是只需要trapdoor和statement的情况下，能生成证明。**通过Prove生成可认可的证明和通过Simulation生成可认可的证明概率一样。**简单的说，通过Prove能生成的证明，通过Simulation也能生成同样的证明的话，就认为是具有完美零知识的属性。
+
+  特别注意，通过Simulation生成证明，并不需要witness的信息。也就是说，理论上，**存在使用和“witness”完全无关的信息能生成同样的证明**。**从而证明了，证明本身没有透露任何和“witness”相关的信息**。也就是，完美零知识。
+
+  如果把 Simulation 和 Prove 想象成两个平行的宇宙空间。在 Simulation 这个空间中，只需要知道 trapdoor 以及 statement ，就能生成和 Prove 空间中使用 witness 生成一样的证明。也就是说，证明和 witness 无关。
+
 - **总结**
 
   Groth16算法的主要计算量由两部分组成：FFT/iFFT以及MultiExp。**在⽣成证明时，需要4次iFFT以及三次FFT计算。**Setup计算和⽣成证明时，需要⼤量的MultiExp。Verify计算量相对较小。

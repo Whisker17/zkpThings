@@ -60,8 +60,8 @@
   - [零知识证明系列专题（三）：初识zk-SNARK](https://mp.weixin.qq.com/s/cdchHTNIlT88mDZwu2yKxw)
   - [零知识证明系列专题（四）：基于Linear PCP的zk-SNARK](https://mp.weixin.qq.com/s/ZYmzn4-LfUD1o9NtDM8ahQ)
   - [零知识证明系列专题（五）：用QSPs构造zk-SNARK](https://mp.weixin.qq.com/s/ksTFqX99zQDS0ECn7AqDQw)
-  
   - [零知识证明系列专题（六）：从QSP到QAP](https://mp.weixin.qq.com/s/kXXdvNhRvsdLpv1UUIACQw)
+  - [零知识证明系列专题（七）：基于MPC协议的简洁零知识证明 Ⅰ](https://mp.weixin.qq.com/s/ZHepLCZHU0jxG9bpO0yUrA)
 - **Star Li 对 Groth16 的相关解析**
 
   - [零知识证明 - Groth16算法介绍](https://mp.weixin.qq.com/s/SguBb5vyAm2Vzht7WKgzug)

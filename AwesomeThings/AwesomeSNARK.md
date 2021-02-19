@@ -122,8 +122,10 @@
   - [The Mathematics behind zkSNARKS](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
 - **Technion Cyber and Computer Security Summer School**
   - [Introduction zk SNARKs STARKs by Eli Ben Sasson](https://www.youtube.com/watch?v=VUN35BC11Qw&ab_channel=Technion)
-- **#ZK0x01**
+- **ZK0x01**
   - [Rise of the SNARKs with Howard Wu](https://www.youtube.com/watch?v=Hig_1ZFbWRM&ab_channel=ZeroKnowledge)
+- **ZK0x04**
+  - [Groth16 is not dead: Exploring the tradeoff space of ZKP Systems - Georgios Konstantopoulos](https://www.youtube.com/watch?v=nPOlnGIOI3Q&ab_channel=ZeroKnowledge) ([slides](https://www.gakonst.com/zksummit2019.pdf))
 
 ### Applications
 

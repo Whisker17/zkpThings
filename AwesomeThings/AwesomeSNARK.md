@@ -21,6 +21,7 @@
   - [BCTV14a](https://eprint.iacr.org/2013/879)
   - [GM17](https://eprint.iacr.org/2017/540.pdf)
 
+- [**ZKBoo: Faster Zero-Knowledge for Boolean Circuits**](https://eprint.iacr.org/2016/163.pdf)
 - **Groth16**
   - [**On the Size of Pairing-based Non-interactive Arguments**](https://eprint.iacr.org/2016/260.pdf)
 - **DIZK**

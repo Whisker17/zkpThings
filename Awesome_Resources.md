@@ -34,6 +34,7 @@ Stay tuned! 😁
 
 - [Zero-Knowledge Proofs (GMR85)](https://groups.csail.mit.edu/cis/crypto/classes/6.876/papers/gmr-ZK.pdf)
 - [Non-Interactive ZK (BFM88)](https://dl.acm.org/citation.cfm?id=62222)
+- [How To Simulate It – A Tutorial on the Simulation Proof Technique](https://eprint.iacr.org/2016/046.pdf)
 
 ### Great resource
 
@@ -42,12 +43,10 @@ Stay tuned! 😁
 #### Courses
 
 - [**COSC 544 - Probabilistic Proof Systems**](http://people.cs.georgetown.edu/jthaler/COSC544.html)
-
 - [**The 9th BIU Winter School on Cryptography: Zero Knowledge**](https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/) **(Very Important！！！！)** 
-
 - [**UIUC: ECE498AC/CS498AM: Applied Cryptography, Fall 2019**](http://soc1024.ece.illinois.edu/teaching/ece498ac/fall2019/)
-
 - [**Stanford CS 251: Bitcoin and Cryptocurrencies**](https://cs251.stanford.edu/)
+- [**Efficient Zero-Knowledge Proofs**](https://www.youtube.com/playlist?list=PLgKuh-lKre10OEVNLH3t0QX0rIK8kK3tu)
 
 #### Books
 
@@ -73,6 +72,7 @@ Stay tuned! 😁
 - [mutourend](https://blog.csdn.net/mutourend)
 - [coders errand](https://coders-errand.com/category/cryptography/)
 - [Bentham’s Gaze](https://www.benthamsgaze.org/)
+- [**zero knowledge blog**](https://www.zeroknowledgeblog.com/)
 
 #### Podcasts
 

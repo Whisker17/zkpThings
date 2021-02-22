@@ -20,11 +20,8 @@ Stay tuned! 😁
 ### Introduction
 
 - **[zk-SNARKs-Explainer](https://github.com/KevinSmall/zk-SNARKs-Explainer)**
-
 - [**The Incredible Machine**](https://medium.com/qed-it/the-incredible-machine-4d1270d7363a)
-
 - [**On Interactive Proofs and Zero-Knowledge: A Primer**](https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3)
-
 - [**Demystifying zero-knowledge proofs**](https://docs.google.com/presentation/d/1gfB6WZMvM9mmDKofFibIgsyYShdf0RV_Y8TLz3k1Ls0/edit#slide=id.p)
 
 

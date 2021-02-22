@@ -29,6 +29,9 @@
 
 ### Articles
 
+- **What are zk-SNARKs?**
+  - [What are zk-SNARKs?](https://z.cash/technology/zksnarks/)
+
 - **zkSNARKs in a Nutshell**
   - [zkSNARKs in a Nutshell](https://chriseth.github.io/notes/articles/zksnarks/zksnarks.pdf)
 - **zk-SNARK explained: Basic Principles**
@@ -173,7 +176,7 @@
   - Star Li Series
     - [零知识证明 - DIZK介绍](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486889&idx=1&sn=c924a84b8d553ef30218299d236ff815&chksm=fe131cb9c96495afd97284a121fa7c78e43efc4d624d37ed5cb78d74e2a51c3f91336e2029ef&scene=21#wechat_redirect)
     - [零知识证明 - DIZK源代码导读](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247486906&idx=1&sn=de778eea6bf4b2781cad42df54d5b72c&chksm=fe131caac96495bc31a71186ca0cd36defffc43c92ee0d87e96d204558cfa86cb8f26887ca4e&scene=21#wechat_redirect)
-    
+  
 - [ConsenSys](https://github.com/ConsenSys)/**[gnark](https://github.com/ConsenSys/gnark)**
   - [gnark docs](https://pkg.go.dev/github.com/consensys/gnark)
   - [Introducing gnark: a fast zero-knowledge proof library](https://hackmd.io/@zkteam/gnark)

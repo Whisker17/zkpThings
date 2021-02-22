@@ -56,4 +56,4 @@
 
 - [Grin: Simple, privacy-focused, scalable MimbleWimble chain implementation](https://grin.mw/) 
 
-
+- [ing-bank](https://github.com/ing-bank)/**[zkrp](https://github.com/ing-bank/zkrp)** (Go)

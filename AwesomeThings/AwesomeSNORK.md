@@ -78,7 +78,7 @@
   - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
   - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
   - [零知识证明plonk算法解析6--递归证明](https://mp.weixin.qq.com/s/jc9gkc3thxga__oOf4SdMg)
-  - 
+  - [零知识证明plonk算法解析7](https://mp.weixin.qq.com/s/seE8Uoa6CgwP5ckQjNAR-A)
 
 ### Applications
 

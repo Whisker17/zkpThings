@@ -99,6 +99,8 @@ Stay tuned! 😁
 
 ![image-20210211132354449](C:\src\github.com\Whisker17\zkpThings\Notes\ZKSNARK\pic\image-20210211132354449.png)
 
+![image-20210224132946337](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210224132958.png)
+
 |                                       | SNARKs                     | STARKs                       | Bulletproofs   |
 | ------------------------------------- | -------------------------- | ---------------------------- | -------------- |
 | Algorithmic complexity: prover        | O(N * log(N))              | O(N * poly-log(N))           | O(N * log(N))  |

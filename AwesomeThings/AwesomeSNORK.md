@@ -40,7 +40,9 @@
   
   - [理解零知识算法PLONK（二）——协议](https://mp.weixin.qq.com/s/ecCnCH-Fd6_fhKqbzLhoMA)
   - **Star Li 的 PlonK 系列**
-  - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A)
+  
+    - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A) （[video](https://mp.weixin.qq.com/s/_JLjPLk-dzl7NLwlcM_eLA)）
+  
     - [零知识证明 - PLONK电路原理](https://mp.weixin.qq.com/s/D9q5-ubGVCf_TK5fQdD9qQ)
   - **ZKSwap 解读 PLONK**
     - [ZKSwap 团队解读零知识证明 PLONK 电路](https://www.chainnews.com/articles/372708200478.htm)
@@ -56,6 +58,7 @@
     - [PLONK by Hand (Part 1: Setup)](https://research.metastate.dev/plonk-by-hand-part-1/)
     - [PLONK by Hand (Part 2: The Proof)](https://research.metastate.dev/plonk-by-hand-part-2-the-proof/)
   - [PLONK by Hand (Part 3: Verification)](https://research.metastate.dev/plonk-by-hand-part-3-verification/)
+    
     - [On PLONK and plookup](https://research.metastate.dev/on-plonk-and-plookup/)
 
 ### Videoes

@@ -1,5 +1,7 @@
 # Groth16
 
+stay tuned
+
 从性能上，Groth16 的 Verifier 性能是所有 zkSNARK 中**最快**的，其证明字符串也是最短的。
 
 而 Groth16 的最大缺点就是它需要对**每个电路都执行一次可信初始化**。

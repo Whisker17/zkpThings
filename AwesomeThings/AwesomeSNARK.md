@@ -117,13 +117,13 @@
 ### Videoes
 
 - **Star Li : Introduction for zk-SNARKs**
-  - [zkSNARK历史](https://www.bilibili.com/video/BV1q741147nq)
-  - [椭圆曲线以及多项式证明](https://www.bilibili.com/video/BV1z7411472z/?spm_id_from=333.788.videocard.0)
-  - [一般计算的证明](https://www.bilibili.com/video/BV1pT4y1u7gA)
-  - [Groth16](https://www.bilibili.com/video/BV1pa4y1e7EY)
-  - [libsnark源代码解析和实战](https://www.bilibili.com/video/BV1qA411t7QP)
-  - [零知识证明场景](https://www.bilibili.com/video/BV1Gg4y1B7CT)
-  - [其他](https://www.bilibili.com/video/BV14e411W7Db)
+  - [zkSNARK历史](https://www.bilibili.com/video/bv1np4y1H7WJ)
+  - [椭圆曲线以及多项式证明](https://www.bilibili.com/video/BV1np4y1H7WJ?p=2)
+  - [一般计算的证明](https://www.bilibili.com/video/BV1np4y1H7WJ?p=3)
+  - [Groth16](https://www.bilibili.com/video/BV1np4y1H7WJ?p=4)
+  - [libsnark源代码解析和实战](https://www.bilibili.com/video/BV1np4y1H7WJ?p=5)
+  - [零知识证明场景](https://www.bilibili.com/video/BV1np4y1H7WJ?p=6)
+  - [其他](https://www.bilibili.com/video/BV1np4y1H7WJ?p=7)
 - **The Mathematics behind zkSNARKS**
   - [The Mathematics behind zkSNARKS](https://www.youtube.com/watch?v=iRQw2RpQAVc&t=2903s&ab_channel=LeastAuthority)
 - **Technion Cyber and Computer Security Summer School**

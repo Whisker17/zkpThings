@@ -32,7 +32,6 @@ STARKs are SNARKs without Trusted Setup.
   - [ZKSwap团队深入解读零知识证明算法之Zk-stark：Low Degree Testing](https://learnblockchain.cn/article/2103)
 
   - [ZKSwap团队深入解读零知识证明算法之Zk-stark——FRI协议](https://learnblockchain.cn/article/2104)
-
 - **FRI-STARKs**
   - [Transparent Succinct Arguments](https://gist.github.com/Haseeb-Qureshi/f552fdbbb649ed4bbfeb681beb4091e1)
   - [Introduction to ZK-STARKs by remco@0x.org](https://hackmd.io/s/rJHYnQ3Z4)
@@ -42,6 +41,7 @@ STARKs are SNARKs without Trusted Setup.
   - [Part III: Into the Weeds](https://vitalik.ca/general/2018/07/21/starks_part_3.html)
 - **Sonic**
   - [Introducing Sonic: A Practical zk-SNARK with a Nearly Trustless Setup](https://www.benthamsgaze.org/2019/02/07/introducing-sonic-a-practical-zk-snark-with-a-nearly-trustless-setup/)
+- [Verifying polynomial constraints with FRI](https://ethresear.ch/t/verifying-polynomial-constraints-with-fri/8666)
 
 ### Videoes
 

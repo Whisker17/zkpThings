@@ -66,14 +66,15 @@
   - [plonk代码导读--门电路build](https://mp.weixin.qq.com/s/ts2j8UrU7RPAZiU4F_LFuQ)
   - [零知识证明plonk代码导读3--Preprocess](https://mp.weixin.qq.com/s/eTWsKDueJrVEFqwNOg6j0w)
   - [零知识证明plonk代码导读4--Circuit预处理](https://mp.weixin.qq.com/s/3XEQ6nFa2vsXkOumICkqzw)
+  - [零知识证明plonk代码导读5--Permutation](https://mp.weixin.qq.com/s/btzP6bSgBcwSkw8BztH4AQ)
 - **零知识项目plonk**
-  - [零知识项目plonk-基础算法概述](https://mp.weixin.qq.com/s/Al71QxRX97ElpDdlSGipSg)
-  - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://mp.weixin.qq.com/s/DOfsU1eagQFNMc6TTY-bsg)
-  - [零知识证明plonk算法系列3--多项式承诺](https://mp.weixin.qq.com/s/DBsxhvun8-WM54OEEFWedg)
-  - [零知识证明plonk算法解析4--SRS与门电路](https://mp.weixin.qq.com/s/qX_UdSXrmkWv-R_KFPw3Pg)
-  - [零知识证明plonk算法解析5--置换与复制约束！](https://mp.weixin.qq.com/s/b4eap5kIwv8F4TzB7d2xsA)
-  - [零知识证明plonk算法解析6--递归证明](https://mp.weixin.qq.com/s/jc9gkc3thxga__oOf4SdMg)
-  - [零知识证明plonk算法解析7](https://mp.weixin.qq.com/s/seE8Uoa6CgwP5ckQjNAR-A)
+  - [零知识项目plonk-基础算法概述](https://www.bilibili.com/video/BV1XZ4y1A7bU)
+  - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=2)
+  - [零知识证明plonk算法系列3--多项式承诺](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=3)
+  - [零知识证明plonk算法解析4--SRS与门电路](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=4)
+  - [零知识证明plonk算法解析5--置换与复制约束！](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=5)
+  - [零知识证明plonk算法解析6--递归证明](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=6)
+  - [零知识证明plonk算法解析7](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=7)
 
 ### Applications
 

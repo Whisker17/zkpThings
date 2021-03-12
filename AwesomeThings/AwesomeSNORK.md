@@ -26,7 +26,6 @@
 - **MARLIN**
   
   - [A Marlin is One of the Fastest SNARKs in the Ocean](https://www.benthamsgaze.org/2019/09/19/a-marlin-is-one-of-the-fastest-snarks-in-the-ocean/)
-  
 - **PLONK**
   - [Understanding PLONK by Vitalik Buterin](https://vitalik.ca/general/2019/09/22/plonk.html)
   - **AZTEC Ignition**
@@ -40,8 +39,13 @@
   - [理解零知识算法PLONK（二）——协议](https://mp.weixin.qq.com/s/ecCnCH-Fd6_fhKqbzLhoMA)
 - **Star Li 的 PlonK 系列**
   - [深入理解PlonK算法](https://mp.weixin.qq.com/s/yEMs7xoGG5DmUfr-aivf9A) （[video](https://www.bilibili.com/video/BV1Gp4y1H7HU/)）
-  
   - [零知识证明 - PLONK电路原理](https://mp.weixin.qq.com/s/D9q5-ubGVCf_TK5fQdD9qQ)
+- **Star Li 的 zkSync 系列**
+
+  - [zkSync源代码导读](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247487360&idx=1&sn=2999381c10b4ee2d84941bcc1b3c444f&chksm=fe131e90c9649786573471ea6007df10ef2020185845d874a3b78247e4507574ed9ea90fe832&scene=178&cur_album_id=1581963834787971076#rd)
+  - [深入理解zkSync电路](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247487391&idx=1&sn=d53e88007d2e14a9d7806ab3960084d4&chksm=fe131e8fc96497992cda8e99bce742c843b0894f34de60f33cc700ed4ce969f57667bcdcd2f5&scene=178&cur_album_id=1581963834787971076#rd)
+  - [zkSync服务搭建](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247487462&idx=1&sn=3210f1751f6fb0c88ec12d32dd9dc01a&chksm=fe131ef6c96497e0269333454990af688a8af4f962aebc0d72f0a66ec340c52fec13366ea935&scene=178&cur_album_id=1581963834787971076#rd)
+  - [深入理解zkSync电路预处理](https://mp.weixin.qq.com/s?__biz=MzU5MzMxNTk2Nw==&mid=2247487551&idx=1&sn=9ac442c0b449d07b428877f29c1e6a78&chksm=fe13012fc964883982b67d75379cbc2e0902760bd0820c85d24c6ad78f7fa7c0d3c2bd910bd5&scene=178&cur_album_id=1581963834787971076#rd)
 - **ZKSwap 解读 PLONK**
   - [ZKSwap 团队解读零知识证明 PLONK 电路](https://www.chainnews.com/articles/372708200478.htm)
   - [ZKSwap 团队解读零知识证明 PLONK 协议](https://www.chainnews.com/articles/254075343460.htm)

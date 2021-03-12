@@ -46,7 +46,7 @@
 
 - [dalek-cryptography](https://github.com/dalek-cryptography)/**[bulletproofs](https://github.com/dalek-cryptography/bulletproofs)**
 
-  ![](C:\src\github.com\Whisker17\zkpThings\Notes\ZKSNARK\pic\68747470733a2f2f646f632e64616c656b2e72732f6173736574732f62756c6c657470726f6f66732d72616e676570726f6f662e706e67.png)
+  ![image-20210312152858937](https://raw.githubusercontent.com/Whisker17/ImageStoreService/main/img/20210312152900.png)
 
 - [adjoint-io](https://github.com/adjoint-io)/**[bulletproofs](https://github.com/adjoint-io/bulletproofs)** (Haskell)
 

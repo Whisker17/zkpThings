@@ -71,6 +71,7 @@
   - [零知识证明plonk代码导读3--Preprocess](https://mp.weixin.qq.com/s/eTWsKDueJrVEFqwNOg6j0w)
   - [零知识证明plonk代码导读4--Circuit预处理](https://mp.weixin.qq.com/s/3XEQ6nFa2vsXkOumICkqzw)
   - [零知识证明plonk代码导读5--Permutation](https://mp.weixin.qq.com/s/btzP6bSgBcwSkw8BztH4AQ)
+  - [零知识证明plonk代码导读6--Proof生成](https://mp.weixin.qq.com/s/JhAry-thi4yxyscJUQLF1Q)
 - **零知识项目plonk**
   - [零知识项目plonk-基础算法概述](https://www.bilibili.com/video/BV1XZ4y1A7bU)
   - [零知识证明plonk算法系列2--多项式与黑盒模拟prove](https://www.bilibili.com/video/BV1XZ4y1A7bU?p=2)

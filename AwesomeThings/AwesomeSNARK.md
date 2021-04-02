@@ -67,6 +67,8 @@
   - [零知识证明系列专题（五）：用QSPs构造zk-SNARK](https://mp.weixin.qq.com/s/ksTFqX99zQDS0ECn7AqDQw)
   - [零知识证明系列专题（六）：从QSP到QAP](https://mp.weixin.qq.com/s/kXXdvNhRvsdLpv1UUIACQw)
   - [零知识证明系列专题（七）：基于MPC协议的简洁零知识证明 Ⅰ](https://mp.weixin.qq.com/s/ZHepLCZHU0jxG9bpO0yUrA)
+  - [零知识证明系列专题（八）：基于MPC协议的简洁零知识证明 II](https://mp.weixin.qq.com/s/zE4lxKhK6zU_Folj0zQMBQ)
+  - [零知识证明系列专题（九）：基于MPC协议的简洁零知识证明 III](https://mp.weixin.qq.com/s/e8zicBhrrq-6ZTmC_0eFYg)
 - **Star Li 对 Groth16 的相关解析**
 
   - [零知识证明 - Groth16算法介绍](https://mp.weixin.qq.com/s/SguBb5vyAm2Vzht7WKgzug)
@@ -132,6 +134,7 @@
   - [Rise of the SNARKs with Howard Wu](https://www.youtube.com/watch?v=Hig_1ZFbWRM&ab_channel=ZeroKnowledge)
 - **ZK0x04**
   - [Groth16 is not dead: Exploring the tradeoff space of ZKP Systems - Georgios Konstantopoulos](https://www.youtube.com/watch?v=nPOlnGIOI3Q&ab_channel=ZeroKnowledge) ([slides](https://www.gakonst.com/zksummit2019.pdf))
+- [美国西北大学汪骁教授开讲交互式零知识证明最新进展](https://www.bilibili.com/video/BV1CK4y1T7R6)
 
 ### Applications
 

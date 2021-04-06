@@ -69,6 +69,8 @@
   - [零知识证明系列专题（七）：基于MPC协议的简洁零知识证明 Ⅰ](https://mp.weixin.qq.com/s/ZHepLCZHU0jxG9bpO0yUrA)
   - [零知识证明系列专题（八）：基于MPC协议的简洁零知识证明 II](https://mp.weixin.qq.com/s/zE4lxKhK6zU_Folj0zQMBQ)
   - [零知识证明系列专题（九）：基于MPC协议的简洁零知识证明 III](https://mp.weixin.qq.com/s/e8zicBhrrq-6ZTmC_0eFYg)
+  - [零知识证明系列专题（十）：基于MPC协议的简洁零知识证明 Ⅳ](https://mp.weixin.qq.com/s/CMdbGfdXImLH7C7GJzzAFw)
+  - [零知识证明系列专题（十一）：基于short IOP的简洁零知识证明 I](https://mp.weixin.qq.com/s/JwIuz8_WXa7IV-DyEYfqTw)
 - **Star Li 对 Groth16 的相关解析**
 
   - [零知识证明 - Groth16算法介绍](https://mp.weixin.qq.com/s/SguBb5vyAm2Vzht7WKgzug)

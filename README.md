@@ -6,7 +6,7 @@ This repo is just for recording my study for zero-knowledge proof and summarize 
 
 **STAY TUNED!!!!!**
 
-**本人很懒,在未完成前懒得写 README ,可以先去 Isues 查看进度**
+**本人很懒,在未完成前懒得写 README ,可以先去 Isues 查看进度，推荐先查看[**Reading Lists**](https://github.com/Whisker17/zkpThings/blob/master/Reading_Lists.md)以及[**Awesome Resources**](https://github.com/Whisker17/zkpThings/blob/master/Awesome_Resources.md)**
 
 ## Catalogue
 
